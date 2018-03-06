@@ -1,0 +1,76 @@
+﻿//แสดงข้อความใน Label
+private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            conn.Open();
+            string query = "select * from patient where patient_idcard = '" + textBox2.Text + "'";
+            cmd = new SqlCommand(query, conn);
+            sda = new SqlDataAdapter(cmd);
+            dt = new DataTable();         
+            sda.Fill(dt);
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                label2.Text = dr["patient_name"].ToString();
+            }
+                
+            conn.Close();
+
+        }
+
+
+
+//โค้ดล็อคอิน
+private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+	{
+	Process.Start("https://www.youtube.com/watch?v=bzFPaxVCE48");
+	}
+
+	/*SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-VAM0JO2\SQLEXPRESS; Initial Catalog=Clinic2018; User ID=tanakorn29; Password=111111");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("select * from user_control where uct_user ='" + T_Username.Text + "'and uct_password = '" + T_Password +"', conn");
+            SqlDataReader dr;
+            dr = cmd.ExecuteReader();
+            int count = 0;
+            while (dr.Read())
+            {
+                count += 1;
+            }
+
+            if (count == 1)
+            {
+                MessageBox.Show("OK");
+                this.menuStrip1.Show();
+                this.toolStrip1.Show();
+                this.panel1.Hide();
+            }
+            else if (count > 0)
+            {
+                MessageBox.Show("Duplicate Username or Password");
+            }
+            else
+            {
+                MessageBox.Show("Username or Password not correct");
+            }
+            conn.Close();*/
+
+
+//โค้ดลายน้ำใน Textbox ต้องใช้Even Enter และ Leave
+			private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "บัตรประชาชน")
+            {
+                textBox1.Text = "";
+
+                textBox1.ForeColor = Color.Black;
+            }
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = "บัตรประชาชน";
+
+                textBox1.ForeColor = Color.Silver;
+            }
+        }

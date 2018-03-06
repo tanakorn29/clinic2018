@@ -1,0 +1,14 @@
+SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-VAM0JO2\SQLEXPRESS; Initial Catalog=Clinic2018; User ID=tanakorn29; Password=111111");
+            SqlDataAdapter sda = new SqlDataAdapter("select * form login where username= '" + T_Username.Text + "' and password= '" + T_Password.Text + "'", conn);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+                
+            if (dt.Rows.Count == 1)
+            {
+                clinic_login cln = new clinic_login();
+                cln.Show();
+            }
+            else
+            {
+                MessageBox.Show("Username หรือ Password ไม่ถูกต้อง");
+            }
