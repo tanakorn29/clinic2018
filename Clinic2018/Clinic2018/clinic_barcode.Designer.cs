@@ -57,7 +57,7 @@
             this.B_barcode.Name = "B_barcode";
             this.B_barcode.Size = new System.Drawing.Size(99, 23);
             this.B_barcode.TabIndex = 3;
-            this.B_barcode.Text = "Barcode";
+            this.B_barcode.Text = "Barcode1";
             this.B_barcode.UseVisualStyleBackColor = true;
             this.B_barcode.Click += new System.EventHandler(this.B_barcode_Click);
             // 
