@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewLinkColumn();
@@ -38,8 +40,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -57,6 +57,25 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(818, 488);
             this.panel1.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("TH SarabunPSK", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label3.Location = new System.Drawing.Point(165, 29);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(147, 42);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "ค้นหาประวัติ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(115, 71);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(246, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย ";
             // 
             // dataGridView1
             // 
@@ -125,7 +144,7 @@
             // 
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.groupBox2.Location = new System.Drawing.Point(17, 30);
+            this.groupBox2.Location = new System.Drawing.Point(484, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(294, 88);
             this.groupBox2.TabIndex = 3;
@@ -142,29 +161,11 @@
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "บัตรประชาชน";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("TH SarabunPSK", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label3.Location = new System.Drawing.Point(475, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 42);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "ค้นหาประวัติ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(433, 72);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(246, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย ";
             // 
             // clinic_search
             // 
@@ -173,7 +174,8 @@
             this.ClientSize = new System.Drawing.Size(818, 488);
             this.Controls.Add(this.panel1);
             this.Name = "clinic_search";
-            this.Text = "ค้นหาประวัติ- ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย ";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ค้นหาประวัติ - ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย ";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

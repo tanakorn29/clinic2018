@@ -45,11 +45,16 @@ namespace Clinic2018
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            textBox1.MaxLength = 13;
+            dataGridView1.Rows.Clear();
+            dataGridView1.Refresh();
+
             string query = ("select * from patient where patient_idcard='" + textBox1.Text + "'");
             cmd = new SqlCommand(query, conn);
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
             sda.Fill(dt);
+
             foreach (DataRow item in dt.Rows)
             {
                 int n = dataGridView1.Rows.Add();
@@ -57,16 +62,19 @@ namespace Clinic2018
                 dataGridView1.Rows[n].Cells[1].Value = item["patient_name"].ToString();
                 dataGridView1.Rows[n].Cells[2].Value = item["patient_birthday"].ToString();
                 dataGridView1.Rows[n].Cells[3].Value = item["patient_telmobile"].ToString();
-
             }
 
-            //textBox1.Clear();
-           
         }
-
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            dataGridView1.Rows.Clear();
+            dataGridView1.Refresh();
         }
     }
 }

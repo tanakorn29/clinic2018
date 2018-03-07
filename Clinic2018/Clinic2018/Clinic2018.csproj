@@ -351,6 +351,7 @@
   <ItemGroup>
     <None Include="Resources\24068730_1602140229809333_8581241208102830372_o.jpg" />
     <None Include="Resources\มหาวิทยาลัยรามคำแหง_21.png" />
+    <Content Include="ความคืบหน้าของโปรแกรม.txt" />
     <Content Include="โค๊ดที่ต้องใช้.txt" />
   </ItemGroup>
   <ItemGroup>

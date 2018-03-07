@@ -16,5 +16,11 @@ namespace Clinic2018
         {
             InitializeComponent();
         }
+
+        private void clinic_calendar_Load(object sender, EventArgs e)
+        {
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.CustomFormat = "dd-MM-yyyy";
+        }
     }
 }
