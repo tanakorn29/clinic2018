@@ -165,7 +165,7 @@
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox1.Location = new System.Drawing.Point(54, 53);
+            this.groupBox1.Location = new System.Drawing.Point(21, 52);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(424, 237);
             this.groupBox1.TabIndex = 0;
@@ -179,7 +179,7 @@
             this.B_login.ActiveFillColor = System.Drawing.Color.SeaGreen;
             this.B_login.ActiveForecolor = System.Drawing.Color.White;
             this.B_login.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.B_login.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.B_login.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.B_login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B_login.BackgroundImage")));
             this.B_login.ButtonText = "login";
             this.B_login.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -261,10 +261,10 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Location = new System.Drawing.Point(611, 216);
+            this.panel1.Location = new System.Drawing.Point(489, 155);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(467, 330);
             this.panel1.TabIndex = 6;

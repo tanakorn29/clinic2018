@@ -169,5 +169,15 @@ namespace Clinic2018.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap มหาวิทยาลัยรามคำแหง_21 {
+            get {
+                object obj = ResourceManager.GetObject("มหาวิทยาลัยรามคำแหง_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

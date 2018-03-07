@@ -121,16 +121,16 @@
   <data name="B_login.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFcAAAApCAYAAABA4LXdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIRSURBVGhD7dpNSxtRFMbxfrZAo9TUVChIl+LGRXEhbsRd
-        a5S8QOqmFoQWFOrCRUGykGzctBRdCGZmJGlE09IgaW2bb3Ca5w6NhpyGZMazyrP4reZmhH+Gm+vc+6Dd
-        bgvZYFxDjGuIcQ0xriHGNTQw7s2fH3LSLMlufVm2qvNSCJ7Iy0pirKEBWryrLcrn5gdp/W6q7eC/cc+u
-        jyTvpyXrT6l/hBKdNo8k5z+Wj9/31YZ9cfFNvK+vuA9pN6R+OT8l27UFaf666mnZExdhi+ezkvGS6k1o
-        sGIwK99uvuhx8cQybDyYj/viYo7lVBAf5uHDxpvbuFgV4MdLG0yjywVpufzph3GxpEBxbSCNbq3yUEqN
-        YhgXazZtEEV0lpDN82dh3GLwVF5ogyiyTOfpdXE3vEl1AMXj4moXKD7GNcS4hhjXEOMaYlxDjGuIcQ25
-        uPhvQrtI8bi43Buz4eJii0K7SNHgPQ3e17i45a/bsuFPqAMpmr2L1TAu9n3y3IW4N1k/JafX5TAulK5e
-        SdbjC/O4MpWk7NSXevfQsNXzujqnfoCGV/BnugdFunEB+z75zsqBL86jyQdpCVqfuj174kK1dezOLqxX
-        +AJ9WOte0j2xd8NCX1zAFHHQKEgumFZvRrdw3Ott7bl6ZkyN+w++CSwpsl5KvfE4w9YYDijioKLWDgbG
-        pXgY1xDjGmJcQ4xrpi1/AQSMPhb6Vqm5AAAAAElFTkSuQmCC
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAInSURBVGhD7dpPS1RRGAZwFy1cuGjR1oULFy1aSB9AGkhz
+        Gg1CJMIQFETCFilE08yYf6qVKEEQiNAiNyJuIqUoECoobWY0N36ct/uca02XeQjn3nNWPovfwveeuQPP
+        XM49nve0tT0+MQmEFsUPWhQ/aFH8oEXxgxbFD1o8daF0bFdeb9i9Dw/s/pcxK/4csqXj3LmGDJDF+Kcp
+        61l7Y+2VOs3OocVI98tte1IdtHI9T79EclapD1ipVrCr6+s0w6Zw8Uvc3XkYfegmvaE0K0dZTe6NW8fC
+        fiLLRLgIdvbHsM0fXac3kf9DdheXvvFw8cQq2GwwHzeFizlWU0F2c4cDdm1juREuVgV4ebHB0rpilOWl
+        F3txuFhS4M3HBkrrMLXmt57F4WLNxgZJSr9yNvN9JA730f5tW2SDJLWF6Ol14T497KcDJBsXLrsg2Snc
+        gBRuQAo3IIUbkMINSOEGpHADcuHivwl2UbJx4ao3FoYLFy0KdlHSwT4N9mtcuL1vV2z+qI8OlHTuvJ+N
+        w0Xfp1Qt0EHSulItb5dfbcbhwo3N51apacM8K2yUj32cTvbQ0OqZ/jpKPyBnVzy41Tgo8idcQN+nWB3S
+        xnlK6EN2rb77m2ciXOhc3nX99zltoJ8ZFgN4YhPBQuKPU5giCtuL7qgOu5k04LjXxOdJfmasqfAP/BJY
+        UpSjtx+78XmG1hgOKOKgIsvOoUXxgxbFD1oUP2hR/KBF8eDEfgM23tfL6tK03wAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="P_password.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

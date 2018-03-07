@@ -121,14 +121,20 @@
   <data name="ic_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="มหาวิทยาลัยรามคำแหง_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\มหาวิทยาลัยรามคำแหง_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_cancel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_cancel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_grid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_grid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24068730_1602140229809333_8581241208102830372_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24068730_1602140229809333_8581241208102830372_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="มหาวิทยาลัยรามคำแหง_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\มหาวิทยาลัยรามคำแหง_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_documents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,19 +142,16 @@
   <data name="logo_Heart_Care" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_Heart_Care.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic_grid" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_grid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ic_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_zoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="x-01-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x-01-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="24068730_1602140229809333_8581241208102830372_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\24068730_1602140229809333_8581241208102830372_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="มหาวิทยาลัยรามคำแหง_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\มหาวิทยาลัยรามคำแหง_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
