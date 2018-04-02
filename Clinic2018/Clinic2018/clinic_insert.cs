@@ -137,6 +137,11 @@ namespace Clinic2018
         {
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
         /*public void Regexp(string re, TextBox tb, PictureBox pc, Label lbel, string s)
         {

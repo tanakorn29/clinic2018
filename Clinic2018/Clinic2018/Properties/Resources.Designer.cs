@@ -73,6 +73,26 @@ namespace Clinic2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap folder_documents_icon {
+            get {
+                object obj = ResourceManager.GetObject("folder-documents-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap folder_documents_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("folder-documents-icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_cancel {
             get {
                 object obj = ResourceManager.GetObject("ic_cancel", resourceCulture);
@@ -106,6 +126,16 @@ namespace Clinic2018.Properties {
         internal static System.Drawing.Bitmap ic_grid {
             get {
                 object obj = ResourceManager.GetObject("ic_grid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_text_document {
+            get {
+                object obj = ResourceManager.GetObject("ic_text_document", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

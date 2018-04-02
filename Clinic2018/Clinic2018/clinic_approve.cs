@@ -26,9 +26,15 @@ namespace Clinic2018
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+            //clear label เมื่อ textbox2 เปลี่ยนการค้นหา
+            S1.Text = "";
+            S2.Text = "";
+            S3.Text = "";
+            S4.Text = "";
+
             conn.Open();
             //string query = ("select * from patient where patient_idcard=" + int.Parse(textBox2.Text));
-            string query = ("select * from patient where patient_idcard='"+textBox2.Text+"'");
+            string query = ("select * from employee_ru where emp_ru_idcard='" + textBox2.Text+"'");
             cmd = new SqlCommand(query, conn);
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
@@ -36,21 +42,19 @@ namespace Clinic2018
             sdr = cmd.ExecuteReader();
 
             //Select DATE_FORMAT(DATE_ADD(BirthDate, INTERVAL 543 YEAR), '%d/%m/%Y') AS BirthDate From tblolder
-
-
-
-            if (sdr.Read())
+            
+            if(sdr.Read())
             {
-                S1.Text = (sdr["patient_idcard"].ToString());
-                S2.Text = (sdr["patient_name"].ToString());
-                S3.Text = (sdr["patient_birthday"].ToString());
-                S4.Text = (sdr["patient_telmobile"].ToString());
-                
+                S1.Text = (sdr["emp_ru_idcard"].ToString());
+                S2.Text = (sdr["emp_ru_name"].ToString());
+                S3.Text = (sdr["emp_ru_birthday"].ToString());
+                S4.Text = (sdr["emp_ru_telmobile"].ToString());
+                //S5.Text = (sdr["emp_ru_telmobile"].ToString());
+                S6.Text = (sdr["emp_ru_status"].ToString());
             }
             /*else
             {
-                //S11.Text = ("ไม่พบข้อมูล").ToString();
-                MessageBox.Show("ไม่พบข้อมูล");
+               MessageBox.Show("ไม่พบข้อมูล");
             }*/
             conn.Close();
 

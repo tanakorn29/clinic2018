@@ -145,33 +145,6 @@
   <metadata name="amphuresTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>353, 17</value>
   </metadata>
-  <data name="B_login.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAFcAAAApCAYAAABA4LXdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH7SURBVGhD7drLSsNAFMZxn028YL2AiCtBcKELXYhPIGqi
-        tlLwfsGNCzduBMELSmlFRbTUtuMLHedLsFp6rJpwVv0Wv007ifBvmMTMdB1dOiEbjGuIcQ0xriHGNcS4
-        htrGPbyqyFbxRLLlOVl7m5SwPiwr790dDQ3QIluekc3SsRxcv6jt4Me4O4Uzf6IhCV1G/SPULYEb8I0G
-        ZfP+UG3YEhe/RO513h84qJ6QWiHwemVKDm4em1o2xUXYsDYmK65XPQm1F1bHZP+mpMfFFcuw6WA+bomL
-        OZZTQXqhn4fzD9mvuHgqwM1LG0z/F/gnir3buzguHilw59MGUgJ+as0/L8Vx8cymDqJknJ8eauNx3NXa
-        qCxrgyg51xPHDVy/PoBSieJqX1B6jGuIcQ0xriHGNcS4hhjXEOMaiuP6/ya0LymdKC7XxmxEcbFEoX1J
-        yeA9Dd7XRHHzDxsSvvepAymZ3MtCHBfrPlhk0wbR/wX1jGwXT+O40dX7tOw/5Avz1FyvZMuzzWtoWOpZ
-        q07oB9CfhbWRxkaRRlzAug/Wf/jiPJnADctu4bzRsyku7N5dxHsX6nyB/leB64uu2O9hoSUuYIrIPy/6
-        g7gi/Bts91ovT6t7xtS4n/BL4JEi9Hc/7cSdDEtj2KCIjYpaO2gbl9JhXEOMa4hxDTGuGScf3g5In3Sx
-        L4QAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="P_password.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFtSURBVFhHxZZBSsRAEEVnJXgAQXDlDQRB8AaexPO4
-        cusBPIBbDyC4cuVKEARBcCUIA/H/xg6/q9qxarDjg/fJdKq6QjKQrKZp+le7i0vaXUx6BC/hHXyDFq7x
-        3AU8hE1/82MLz+EaRvmA7Jn30M2yHsPM8Ap7eNfKPnbTjFdwW/jIyj5204yPULmGe9DWHcAbqDzAct4W
-        Z+TzrHzCXdiro7wI5RWWc7Ywo/IOezXVHajM9bYwo/LbBVDlBZZ1W5RRyV7AEyzrtiijpVejKvwDl3XG
-        GbyHf80tPIV6EU4Gn8co5lv9k4zRuKEqYzRuqMqIwmd68i2Po7ihKiPKPqyNPI4yD+vJiGKbo9i+RkYU
-        2xzF9jUyotjmKLavkRHFNkexfY2MKHyl1kb7et3EPKwnIwo/Kvjvp/YDYxNuqMoYjRuqMkbjhqqM0bih
-        KmM0bqjKeIaj4N5uqMrgB8mIbwLuyb3dULW7uKTdxeWcVl906ebBDfOW0QAAAABJRU5ErkJggg==
-</value>
-  </data>
   <metadata name="medical_historyTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>539, 17</value>
   </metadata>

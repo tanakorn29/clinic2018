@@ -95,6 +95,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clinc_nurse_service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinc_nurse_service.Designer.cs">
+      <DependentUpon>clinc_nurse_service.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_approve_step2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,18 @@
     </Compile>
     <Compile Include="clinic_insert.Designer.cs">
       <DependentUpon>clinic_insert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clinic_insert_employee1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_insert_employee1.Designer.cs">
+      <DependentUpon>clinic_insert_employee1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clinic_insert_employee2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_insert_employee2.Designer.cs">
+      <DependentUpon>clinic_insert_employee2.cs</DependentUpon>
     </Compile>
     <Compile Include="clinic_login.cs">
       <SubType>Form</SubType>
@@ -222,6 +240,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_insert.resx">
       <DependentUpon>clinic_insert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_insert_employee1.resx">
+      <DependentUpon>clinic_insert_employee1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_insert_employee2.resx">
+      <DependentUpon>clinic_insert_employee2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_login.resx">
       <DependentUpon>clinic_login.cs</DependentUpon>
@@ -351,6 +375,9 @@
   <ItemGroup>
     <None Include="Resources\24068730_1602140229809333_8581241208102830372_o.jpg" />
     <None Include="Resources\มหาวิทยาลัยรามคำแหง_21.png" />
+    <None Include="Resources\ic_text_document.png" />
+    <None Include="Resources\folder-documents-icon.png" />
+    <None Include="Resources\folder-documents-icon1.png" />
     <Content Include="ความคืบหน้าของโปรแกรม.txt" />
     <Content Include="โค๊ดที่ต้องใช้.txt" />
   </ItemGroup>

@@ -22,5 +22,10 @@ namespace Clinic2018
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
             dateTimePicker1.CustomFormat = "dd-MM-yyyy";
         }
+
+        private void checkBox3_Click(object sender, EventArgs e)
+        {
+            this.dateTimePicker2.Show();
+        }
     }
 }

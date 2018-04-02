@@ -30,18 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(clinic_login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.B_login = new Bunifu.Framework.UI.BunifuThinButton2();
             this.T_Username = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.T_Password = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.B_login = new Bunifu.Framework.UI.BunifuThinButton2();
             this.P_password = new System.Windows.Forms.PictureBox();
             this.P_username = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.P_password)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P_username)).BeginInit();
             this.SuspendLayout();
@@ -56,11 +57,44 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(612, 269);
+            this.panel1.Size = new System.Drawing.Size(598, 269);
             this.panel1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("TH SarabunPSK", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(24, 210);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(226, 18);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("TH SarabunPSK", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(5, 192);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(248, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Medical and Health Care Management System";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Clinic2018.Properties.Resources.มหาวิทยาลัยรามคำแหง_21;
+            this.pictureBox1.Location = new System.Drawing.Point(53, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(147, 146);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.B_login);
             this.groupBox1.Controls.Add(this.T_Username);
             this.groupBox1.Controls.Add(this.T_Password);
@@ -73,6 +107,45 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(304, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(19, 18);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "X";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // B_login
+            // 
+            this.B_login.ActiveBorderThickness = 1;
+            this.B_login.ActiveCornerRadius = 20;
+            this.B_login.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.B_login.ActiveForecolor = System.Drawing.Color.White;
+            this.B_login.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.B_login.BackColor = System.Drawing.SystemColors.Highlight;
+            this.B_login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B_login.BackgroundImage")));
+            this.B_login.ButtonText = "login";
+            this.B_login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.B_login.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B_login.ForeColor = System.Drawing.Color.SeaGreen;
+            this.B_login.IdleBorderThickness = 1;
+            this.B_login.IdleCornerRadius = 20;
+            this.B_login.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(210)))), ((int)(((byte)(66)))));
+            this.B_login.IdleForecolor = System.Drawing.Color.White;
+            this.B_login.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(210)))), ((int)(((byte)(66)))));
+            this.B_login.Location = new System.Drawing.Point(211, 157);
+            this.B_login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.B_login.Name = "B_login";
+            this.B_login.Size = new System.Drawing.Size(87, 41);
+            this.B_login.TabIndex = 11;
+            this.B_login.Tag = "111";
+            this.B_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.B_login.Click += new System.EventHandler(this.B_login_Click);
             // 
             // T_Username
             // 
@@ -118,43 +191,6 @@
             this.T_Password.Enter += new System.EventHandler(this.T_Password_Enter);
             this.T_Password.Leave += new System.EventHandler(this.T_Password_Leave);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Clinic2018.Properties.Resources.มหาวิทยาลัยรามคำแหง_21;
-            this.pictureBox1.Location = new System.Drawing.Point(53, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 146);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // B_login
-            // 
-            this.B_login.ActiveBorderThickness = 1;
-            this.B_login.ActiveCornerRadius = 20;
-            this.B_login.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.B_login.ActiveForecolor = System.Drawing.Color.White;
-            this.B_login.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.B_login.BackColor = System.Drawing.SystemColors.Highlight;
-            this.B_login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B_login.BackgroundImage")));
-            this.B_login.ButtonText = "login";
-            this.B_login.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.B_login.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B_login.ForeColor = System.Drawing.Color.SeaGreen;
-            this.B_login.IdleBorderThickness = 1;
-            this.B_login.IdleCornerRadius = 20;
-            this.B_login.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(210)))), ((int)(((byte)(66)))));
-            this.B_login.IdleForecolor = System.Drawing.Color.White;
-            this.B_login.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(210)))), ((int)(((byte)(66)))));
-            this.B_login.Location = new System.Drawing.Point(211, 168);
-            this.B_login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.B_login.Name = "B_login";
-            this.B_login.Size = new System.Drawing.Size(87, 41);
-            this.B_login.TabIndex = 11;
-            this.B_login.Tag = "111";
-            this.B_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.B_login.Click += new System.EventHandler(this.B_login_Click);
-            // 
             // P_password
             // 
             this.P_password.Image = ((System.Drawing.Image)(resources.GetObject("P_password.Image")));
@@ -175,33 +211,11 @@
             this.P_username.TabIndex = 8;
             this.P_username.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("TH SarabunPSK", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(5, 192);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(248, 18);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Medical and Health Care Management System";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("TH SarabunPSK", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(24, 210);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(226, 18);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย";
-            // 
             // clinic_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 269);
+            this.ClientSize = new System.Drawing.Size(598, 269);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "clinic_login";
@@ -209,8 +223,9 @@
             this.Text = "clinic_login";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.P_password)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P_username)).EndInit();
             this.ResumeLayout(false);
@@ -229,5 +244,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
     }
 }

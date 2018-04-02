@@ -1,3 +1,16 @@
 ﻿clinic_login
 เพิ่มติมเมื่อล็อคอินเสร็จ ก็โปรแกรมปิดตัว และเมื่อออกจากระบบให้กลับมาที่ล็อคอิน
 
+
+
+select opd.opd_id, opd.opd_name, opd.opd_idcard, opd.opd_birthday, position.pos_name
+from opd
+inner join position On opd.pos_id = position.pos_id
+where opd.opd_idcard = 1102700111444
+
+
+select opd.opd_idcard, opd.opd_name, user_control.uct_user, user_control.uct_password, position.pos_name
+from opd
+inner join position On opd.pos_id = position.pos_id
+inner join user_control On user_control.opd_idcard = opd.opd_idcard
+where user_control.uct_user = 1102700111444

@@ -46,6 +46,7 @@ namespace Clinic2018
                 MessageBox.Show(ex.Message.ToString(), "Error", MessageBoxButtons.OKCancel);
             }
         }
+        
 
         private void T_Username_Enter(object sender, EventArgs e)
         {
@@ -87,6 +88,11 @@ namespace Clinic2018
             }
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        
         /*private void textBox1_Enter(object sender, EventArgs e)
         {
             if (textBox1.Text == "บัตรประชาชน")

@@ -45,29 +45,92 @@ namespace Clinic2018
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            textBox1.MaxLength = 13;
+            /*textBox1.MaxLength = 13;
             dataGridView1.Rows.Clear();
             dataGridView1.Refresh();
 
-            string query = ("select * from patient where patient_idcard='" + textBox1.Text + "'");
+            string query = ("select * from employee_ru eru, opd, privilege where eru.emp_ru_idcard = opd.emp_ru_id and opd.emp_ru_id = privilege.emp_ru_idcard and eru.emp_ru_idcard = '"+textBox1.Text+"'");
             cmd = new SqlCommand(query, conn);
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
             sda.Fill(dt);
 
-            foreach (DataRow item in dt.Rows)
+            /*select eru.emp_ru_idcard, eru.emp_ru_name, privilege.privil_status
+            from employee_ru eru
+            inner join opd on eru.emp_ru_idcard = opd.emp_ru_id
+            inner join privilege on opd.emp_ru_id = privilege.emp_ru_idcard
+
+            select eru.emp_ru_idcard, eru.emp_ru_name, privilege.privil_status 
+            from employee_ru eru, opd, privilege
+            where eru.emp_ru_idcard = opd.emp_ru_id
+            and opd.emp_ru_id = privilege.emp_ru_idcard
+            and eru.emp_ru_idcard = '1859900128488'
+
+            int a = 1;
+
+            //if (a > 0 )
+            if(textBox1.MaxLength < 13)
             {
-                int n = dataGridView1.Rows.Add();
-                dataGridView1.Rows[n].Cells[0].Value = item["patient_idcard"].ToString();
-                dataGridView1.Rows[n].Cells[1].Value = item["patient_name"].ToString();
-                dataGridView1.Rows[n].Cells[2].Value = item["patient_birthday"].ToString();
-                dataGridView1.Rows[n].Cells[3].Value = item["patient_telmobile"].ToString();
+                foreach (DataRow item in dt.Rows)
+                {
+                    int n = dataGridView1.Rows.Add();
+                    dataGridView1.Rows[n].Cells[0].Value = item["emp_ru_idcard"].ToString();
+                    dataGridView1.Rows[n].Cells[1].Value = item["emp_ru_name"].ToString();
+                    dataGridView1.Rows[n].Cells[2].Value = item["emp_ru_birthday"].ToString();
+                    dataGridView1.Rows[n].Cells[3].Value = item["emp_ru_telmobile"].ToString();
+                    dataGridView1.Rows[n].Cells[4].Value = item["privil_status"].ToString();
+                }
             }
+            else
+            {
+                clinic_approve cliapp = new clinic_approve();
+                cliapp.Show();
+            }*/
+            
 
         }
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+            textBox1.MaxLength = 13;
+            dataGridView1.Rows.Clear();
+            dataGridView1.Refresh();
+
+            string query = ("select * from employee_ru eru, opd, privilege where eru.emp_ru_idcard = opd.emp_ru_id and opd.emp_ru_id = privilege.emp_ru_idcard and eru.emp_ru_idcard = '" + textBox1.Text + "'");
+            cmd = new SqlCommand(query, conn);
+            sda = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            sda.Fill(dt);
+
+            /*select eru.emp_ru_idcard, eru.emp_ru_name, privilege.privil_status
+            from employee_ru eru
+            inner join opd on eru.emp_ru_idcard = opd.emp_ru_id
+            inner join privilege on opd.emp_ru_id = privilege.emp_ru_idcard*/
+
+            /*select eru.emp_ru_idcard, eru.emp_ru_name, privilege.privil_status 
+            from employee_ru eru, opd, privilege
+            where eru.emp_ru_idcard = opd.emp_ru_id
+            and opd.emp_ru_id = privilege.emp_ru_idcard
+            and eru.emp_ru_idcard = '1859900128488'*/
+
+            //int a = 1;
+            //if (a > 0 )
+            if (textBox1.MaxLength != 13)
+            {
+                foreach (DataRow item in dt.Rows)
+                {
+                    int n = dataGridView1.Rows.Add();
+                    dataGridView1.Rows[n].Cells[0].Value = item["emp_ru_idcard"].ToString();
+                    dataGridView1.Rows[n].Cells[1].Value = item["emp_ru_name"].ToString();
+                    dataGridView1.Rows[n].Cells[2].Value = item["emp_ru_birthday"].ToString();
+                    dataGridView1.Rows[n].Cells[3].Value = item["emp_ru_telmobile"].ToString();
+                    dataGridView1.Rows[n].Cells[4].Value = item["privil_status"].ToString();
+                }
+            }
+            else
+            {
+                clinic_approve cliapp = new clinic_approve();
+                cliapp.Show();
+            }
         }
 
         private void textBox1_Click(object sender, EventArgs e)
@@ -76,5 +139,12 @@ namespace Clinic2018
             dataGridView1.Rows.Clear();
             dataGridView1.Refresh();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
