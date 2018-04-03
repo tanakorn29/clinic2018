@@ -19,7 +19,7 @@ namespace Clinic2018
             Application.SetCompatibleTextRenderingDefault(false);
 
             //Application.Run(new clinic_login());
-            Application.Run(new clinic_search());
+            Application.Run(new clinc_nurse_service());
             //Application.Run(new clinic_search());
             //Application.Run(new clinic_calendar());
             //Application.Run(new clinic_test_1()); 

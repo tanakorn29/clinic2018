@@ -16,5 +16,10 @@ namespace Clinic2018
         {
             InitializeComponent();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

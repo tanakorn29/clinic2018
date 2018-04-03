@@ -167,12 +167,6 @@
     <Compile Include="clinic_test_1.Designer.cs">
       <DependentUpon>clinic_test_1.cs</DependentUpon>
     </Compile>
-    <Compile Include="clinic_test_030318.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="clinic_test_030318.Designer.cs">
-      <DependentUpon>clinic_test_030318.cs</DependentUpon>
-    </Compile>
     <Compile Include="clinic_search.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +223,9 @@
     <Compile Include="clinic_visit_record.designer.cs">
       <DependentUpon>clinic_visit_record.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="clinc_nurse_service.resx">
+      <DependentUpon>clinc_nurse_service.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clinic_approve_step2.resx">
       <DependentUpon>clinic_approve_step2.cs</DependentUpon>
     </EmbeddedResource>
@@ -261,9 +258,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_test_1.resx">
       <DependentUpon>clinic_test_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clinic_test_030318.resx">
-      <DependentUpon>clinic_test_030318.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_search.resx">
       <DependentUpon>clinic_search.cs</DependentUpon>

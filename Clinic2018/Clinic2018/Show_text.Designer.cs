@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Show_text));
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -57,11 +58,20 @@
             this.bunifuTextbox1.text = "Bunifu TextBox";
             this.bunifuTextbox1.Click += new System.EventHandler(this.bunifuTextbox1_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(138, 36);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Show_text
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.bunifuTextbox1);
             this.Controls.Add(this.label1);
             this.Name = "Show_text";
@@ -75,5 +85,6 @@
 
         private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

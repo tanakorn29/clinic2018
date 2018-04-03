@@ -37,5 +37,10 @@ namespace Clinic2018
         {
             this.Close();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

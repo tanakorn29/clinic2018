@@ -114,7 +114,7 @@ namespace Clinic2018
 
             //int a = 1;
             //if (a > 0 )
-            if (textBox1.MaxLength != 13)
+            if (textBox1.MaxLength == 13)
             {
                 foreach (DataRow item in dt.Rows)
                 {
@@ -135,6 +135,18 @@ namespace Clinic2018
 
         private void textBox1_Click(object sender, EventArgs e)
         {
+            /*if (textBox1.MaxLength == null)
+            {
+                textBox1.Clear();
+                dataGridView1.Rows.Clear();
+                dataGridView1.Refresh();
+            }
+            else
+            {
+                clinic_approve cliapp = new clinic_approve();
+                cliapp.Close();
+            }*/
+
             textBox1.Clear();
             dataGridView1.Rows.Clear();
             dataGridView1.Refresh();

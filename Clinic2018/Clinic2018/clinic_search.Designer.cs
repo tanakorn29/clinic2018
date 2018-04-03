@@ -40,7 +40,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tableAdapterManager1 = new Clinic2018.conn_patientTableAdapters.TableAdapterManager();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -48,7 +48,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dataGridView1);
@@ -169,13 +168,12 @@
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
-            // textBox2
+            // tableAdapterManager1
             // 
-            this.textBox2.Location = new System.Drawing.Point(394, 79);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager1.Connection = null;
+            this.tableAdapterManager1.patientTableAdapter = null;
+            this.tableAdapterManager1.UpdateOrder = Clinic2018.conn_patientTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // clinic_search
             // 
@@ -209,6 +207,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn สถานะสิทธิ;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private conn_patientTableAdapters.TableAdapterManager tableAdapterManager1;
     }
 }
