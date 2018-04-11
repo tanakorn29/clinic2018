@@ -18,10 +18,10 @@ namespace Clinic2018
             InitializeComponent();
         }
 
+        
+
         private void B_login_Click(object sender, EventArgs e)
         {
-            clinic_main_v2 app_main = new clinic_main_v2();
-
             try
             {
                 SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-VAM0JO2\SQLEXPRESS; Initial Catalog=Clinic2018; User ID=tanakorn29; Password=111111");
@@ -34,8 +34,13 @@ namespace Clinic2018
                 {
                     MessageBox.Show("ยินดีต้อนรับ" + " " + T_Username.Text);
 
-                    app_main.Show();
+                    clinic_main_v2 m2 = new clinic_main_v2();
+                    m2.Show();
+                    clinic_login clnlog = new clinic_login();
+                    clnlog.Close();
+                    Visible = false;
                 }
+
                 else
                 {
                     MessageBox.Show("Check Username and Password agin!!");

@@ -119,6 +119,12 @@
     <Compile Include="clinic_calendar.Designer.cs">
       <DependentUpon>clinic_calendar.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinic_doctor_service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_doctor_service.Designer.cs">
+      <DependentUpon>clinic_doctor_service.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_insert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +214,7 @@
       <DependentUpon>Show_text.cs</DependentUpon>
     </Compile>
     <Compile Include="System\Data\Odbc\SqlDataAdapter.cs" />
+    <Compile Include="textBox1\Text.cs" />
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -234,6 +241,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_calendar.resx">
       <DependentUpon>clinic_calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_doctor_service.resx">
+      <DependentUpon>clinic_doctor_service.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_insert.resx">
       <DependentUpon>clinic_insert.cs</DependentUpon>

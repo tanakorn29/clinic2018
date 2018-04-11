@@ -57,5 +57,11 @@ namespace Clinic2018
         {
             
         }
+
+        private void ll1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            clinic_search search = new clinic_search();
+            search.Show();
+        }
     }
 }
