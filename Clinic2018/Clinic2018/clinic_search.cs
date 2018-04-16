@@ -42,6 +42,7 @@ namespace Clinic2018
         SqlCommand cmd;
         SqlDataAdapter sda;
         DataTable dt;
+        SqlDataReader drd;
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -125,6 +126,58 @@ namespace Clinic2018
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             selectedRow = e.RowIndex;
+            DataGridViewRow row = dataGridView1.Rows[selectedRow];
+            lb11.Text = row.Cells[0].Value.ToString();
+            lb22.Text = row.Cells[1].Value.ToString();
+            lb33.Text = row.Cells[2].Value.ToString();
+            lb44.Text = row.Cells[3].Value.ToString();
+            lb55.Text = row.Cells[4].Value.ToString();
+        }
+
+        private void bt1_Click(object sender, EventArgs e)
+        {
+            textBox1.MaxLength = 13;
+            textBox1.Clear();
+            dataGridView1.Rows.Clear();
+            dataGridView1.Refresh();
+
+            lb11.Text = "";
+            lb22.Text = "";
+            lb33.Text = "";
+            lb44.Text = "";
+            lb55.Text = "";
+
+        }
+
+        private void bt2_Click(object sender, EventArgs e)
+        {
+            string query = ("insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard values('123', SYSDATETIME(), SYSDATETIME(),'"+lb11.Text+"','123','"+lb11.Text+"')");
+            cmd = new SqlCommand(query, conn);
+            sda = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            sda.Fill(dt);
+
+            try
+            {
+                conn.Open();
+                drd = cmd.ExecuteReader();
+                MessageBox.Show("Save");
+                while (drd.Read())
+                {
+
+                }
+
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            /*string query = (" ");
+            cmd = new SqlCommand(query, conn);
+            sda = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            sda.Fill(dt);*/
+
         }
     }
 }

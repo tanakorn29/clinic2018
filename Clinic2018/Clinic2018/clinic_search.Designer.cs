@@ -37,13 +37,10 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.tableAdapterManager1 = new Clinic2018.conn_patientTableAdapters.TableAdapterManager();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.bt1 = new System.Windows.Forms.Button();
+            this.gb1 = new System.Windows.Forms.GroupBox();
+            this.gb2 = new System.Windows.Forms.GroupBox();
             this.bt2 = new System.Windows.Forms.Button();
+            this.bt1 = new System.Windows.Forms.Button();
             this.lb55 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lb44 = new System.Windows.Forms.Label();
@@ -54,11 +51,15 @@
             this.lb2 = new System.Windows.Forms.Label();
             this.lb11 = new System.Windows.Forms.Label();
             this.lb1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tableAdapterManager1 = new Clinic2018.conn_patientTableAdapters.TableAdapterManager();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.gb1.SuspendLayout();
+            this.gb2.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -66,7 +67,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.groupBox1);
+            this.panel1.Controls.Add(this.gb1);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -148,17 +149,158 @@
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
-            // groupBox1
+            // gb1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.groupBox1.Location = new System.Drawing.Point(17, 124);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(789, 425);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "แสดงข้อมูล";
+            this.gb1.BackColor = System.Drawing.SystemColors.Control;
+            this.gb1.Controls.Add(this.gb2);
+            this.gb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.gb1.Location = new System.Drawing.Point(17, 124);
+            this.gb1.Name = "gb1";
+            this.gb1.Size = new System.Drawing.Size(789, 425);
+            this.gb1.TabIndex = 1;
+            this.gb1.TabStop = false;
+            this.gb1.Text = "แสดงข้อมูล";
+            // 
+            // gb2
+            // 
+            this.gb2.Controls.Add(this.bt2);
+            this.gb2.Controls.Add(this.bt1);
+            this.gb2.Controls.Add(this.lb55);
+            this.gb2.Controls.Add(this.label5);
+            this.gb2.Controls.Add(this.lb44);
+            this.gb2.Controls.Add(this.lb4);
+            this.gb2.Controls.Add(this.lb33);
+            this.gb2.Controls.Add(this.lb3);
+            this.gb2.Controls.Add(this.lb22);
+            this.gb2.Controls.Add(this.lb2);
+            this.gb2.Controls.Add(this.lb11);
+            this.gb2.Controls.Add(this.label1);
+            this.gb2.Controls.Add(this.lb1);
+            this.gb2.Location = new System.Drawing.Point(18, 177);
+            this.gb2.Name = "gb2";
+            this.gb2.Size = new System.Drawing.Size(754, 235);
+            this.gb2.TabIndex = 10;
+            this.gb2.TabStop = false;
+            // 
+            // bt2
+            // 
+            this.bt2.Location = new System.Drawing.Point(300, 189);
+            this.bt2.Name = "bt2";
+            this.bt2.Size = new System.Drawing.Size(75, 27);
+            this.bt2.TabIndex = 12;
+            this.bt2.Text = "ส่งคิว";
+            this.bt2.UseVisualStyleBackColor = true;
+            this.bt2.Click += new System.EventHandler(this.bt2_Click);
+            // 
+            // bt1
+            // 
+            this.bt1.Location = new System.Drawing.Point(219, 188);
+            this.bt1.Name = "bt1";
+            this.bt1.Size = new System.Drawing.Size(75, 29);
+            this.bt1.TabIndex = 11;
+            this.bt1.Text = "ยกเลิก";
+            this.bt1.UseVisualStyleBackColor = true;
+            this.bt1.Click += new System.EventHandler(this.bt1_Click);
+            // 
+            // lb55
+            // 
+            this.lb55.AutoSize = true;
+            this.lb55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb55.Location = new System.Drawing.Point(150, 151);
+            this.lb55.Name = "lb55";
+            this.lb55.Size = new System.Drawing.Size(14, 20);
+            this.lb55.TabIndex = 1;
+            this.lb55.Text = "-";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label5.Location = new System.Drawing.Point(75, 151);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(59, 20);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "label1 :";
+            // 
+            // lb44
+            // 
+            this.lb44.AutoSize = true;
+            this.lb44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb44.Location = new System.Drawing.Point(150, 121);
+            this.lb44.Name = "lb44";
+            this.lb44.Size = new System.Drawing.Size(14, 20);
+            this.lb44.TabIndex = 3;
+            this.lb44.Text = "-";
+            // 
+            // lb4
+            // 
+            this.lb4.AutoSize = true;
+            this.lb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb4.Location = new System.Drawing.Point(64, 121);
+            this.lb4.Name = "lb4";
+            this.lb4.Size = new System.Drawing.Size(70, 20);
+            this.lb4.TabIndex = 4;
+            this.lb4.Text = "โทรศัพท์ :";
+            // 
+            // lb33
+            // 
+            this.lb33.AutoSize = true;
+            this.lb33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb33.Location = new System.Drawing.Point(150, 91);
+            this.lb33.Name = "lb33";
+            this.lb33.Size = new System.Drawing.Size(14, 20);
+            this.lb33.TabIndex = 5;
+            this.lb33.Text = "-";
+            // 
+            // lb3
+            // 
+            this.lb3.AutoSize = true;
+            this.lb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb3.Location = new System.Drawing.Point(28, 91);
+            this.lb3.Name = "lb3";
+            this.lb3.Size = new System.Drawing.Size(106, 20);
+            this.lb3.TabIndex = 6;
+            this.lb3.Text = "วัน/เดือน/ปีเกิด :";
+            // 
+            // lb22
+            // 
+            this.lb22.AutoSize = true;
+            this.lb22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb22.Location = new System.Drawing.Point(150, 61);
+            this.lb22.Name = "lb22";
+            this.lb22.Size = new System.Drawing.Size(14, 20);
+            this.lb22.TabIndex = 7;
+            this.lb22.Text = "-";
+            // 
+            // lb2
+            // 
+            this.lb2.AutoSize = true;
+            this.lb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb2.Location = new System.Drawing.Point(70, 61);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(64, 20);
+            this.lb2.TabIndex = 8;
+            this.lb2.Text = "ชื่อ-สกุล :";
+            // 
+            // lb11
+            // 
+            this.lb11.AutoSize = true;
+            this.lb11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb11.Location = new System.Drawing.Point(150, 31);
+            this.lb11.Name = "lb11";
+            this.lb11.Size = new System.Drawing.Size(14, 20);
+            this.lb11.TabIndex = 9;
+            this.lb11.Text = "-";
+            // 
+            // lb1
+            // 
+            this.lb1.AutoSize = true;
+            this.lb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lb1.Location = new System.Drawing.Point(35, 31);
+            this.lb1.Name = "lb1";
+            this.lb1.Size = new System.Drawing.Size(99, 20);
+            this.lb1.TabIndex = 10;
+            this.lb1.Text = "บัตรประชาชน :";
             // 
             // groupBox2
             // 
@@ -193,143 +335,16 @@
             this.tableAdapterManager1.patientTableAdapter = null;
             this.tableAdapterManager1.UpdateOrder = Clinic2018.conn_patientTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // groupBox3
+            // label1
             // 
-            this.groupBox3.Controls.Add(this.bt2);
-            this.groupBox3.Controls.Add(this.bt1);
-            this.groupBox3.Controls.Add(this.lb55);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.lb44);
-            this.groupBox3.Controls.Add(this.lb4);
-            this.groupBox3.Controls.Add(this.lb33);
-            this.groupBox3.Controls.Add(this.lb3);
-            this.groupBox3.Controls.Add(this.lb22);
-            this.groupBox3.Controls.Add(this.lb2);
-            this.groupBox3.Controls.Add(this.lb11);
-            this.groupBox3.Controls.Add(this.lb1);
-            this.groupBox3.Location = new System.Drawing.Point(18, 177);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(754, 235);
-            this.groupBox3.TabIndex = 10;
-            this.groupBox3.TabStop = false;
-            // 
-            // bt1
-            // 
-            this.bt1.Location = new System.Drawing.Point(219, 188);
-            this.bt1.Name = "bt1";
-            this.bt1.Size = new System.Drawing.Size(75, 29);
-            this.bt1.TabIndex = 11;
-            this.bt1.Text = "ยกเลิก";
-            this.bt1.UseVisualStyleBackColor = true;
-            // 
-            // bt2
-            // 
-            this.bt2.Location = new System.Drawing.Point(300, 189);
-            this.bt2.Name = "bt2";
-            this.bt2.Size = new System.Drawing.Size(75, 27);
-            this.bt2.TabIndex = 12;
-            this.bt2.Text = "ยืนยัน";
-            this.bt2.UseVisualStyleBackColor = true;
-            // 
-            // lb55
-            // 
-            this.lb55.AutoSize = true;
-            this.lb55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb55.Location = new System.Drawing.Point(150, 151);
-            this.lb55.Name = "lb55";
-            this.lb55.Size = new System.Drawing.Size(14, 20);
-            this.lb55.TabIndex = 1;
-            this.lb55.Text = "-";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label5.Location = new System.Drawing.Point(75, 151);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "label1";
-            // 
-            // lb44
-            // 
-            this.lb44.AutoSize = true;
-            this.lb44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb44.Location = new System.Drawing.Point(150, 121);
-            this.lb44.Name = "lb44";
-            this.lb44.Size = new System.Drawing.Size(14, 20);
-            this.lb44.TabIndex = 3;
-            this.lb44.Text = "-";
-            // 
-            // lb4
-            // 
-            this.lb4.AutoSize = true;
-            this.lb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb4.Location = new System.Drawing.Point(64, 121);
-            this.lb4.Name = "lb4";
-            this.lb4.Size = new System.Drawing.Size(62, 20);
-            this.lb4.TabIndex = 4;
-            this.lb4.Text = "โทรศัพท์";
-            // 
-            // lb33
-            // 
-            this.lb33.AutoSize = true;
-            this.lb33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb33.Location = new System.Drawing.Point(150, 91);
-            this.lb33.Name = "lb33";
-            this.lb33.Size = new System.Drawing.Size(14, 20);
-            this.lb33.TabIndex = 5;
-            this.lb33.Text = "-";
-            // 
-            // lb3
-            // 
-            this.lb3.AutoSize = true;
-            this.lb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb3.Location = new System.Drawing.Point(28, 91);
-            this.lb3.Name = "lb3";
-            this.lb3.Size = new System.Drawing.Size(98, 20);
-            this.lb3.TabIndex = 6;
-            this.lb3.Text = "วัน/เดือน/ปีเกิด";
-            // 
-            // lb22
-            // 
-            this.lb22.AutoSize = true;
-            this.lb22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb22.Location = new System.Drawing.Point(150, 61);
-            this.lb22.Name = "lb22";
-            this.lb22.Size = new System.Drawing.Size(14, 20);
-            this.lb22.TabIndex = 7;
-            this.lb22.Text = "-";
-            // 
-            // lb2
-            // 
-            this.lb2.AutoSize = true;
-            this.lb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb2.Location = new System.Drawing.Point(70, 61);
-            this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(56, 20);
-            this.lb2.TabIndex = 8;
-            this.lb2.Text = "ชื่อ-สกุล";
-            // 
-            // lb11
-            // 
-            this.lb11.AutoSize = true;
-            this.lb11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb11.Location = new System.Drawing.Point(150, 31);
-            this.lb11.Name = "lb11";
-            this.lb11.Size = new System.Drawing.Size(14, 20);
-            this.lb11.TabIndex = 9;
-            this.lb11.Text = "-";
-            // 
-            // lb1
-            // 
-            this.lb1.AutoSize = true;
-            this.lb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lb1.Location = new System.Drawing.Point(35, 31);
-            this.lb1.Name = "lb1";
-            this.lb1.Size = new System.Drawing.Size(91, 20);
-            this.lb1.TabIndex = 10;
-            this.lb1.Text = "บัตรประชาชน";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(381, 192);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "ส่งให้พยาบาล**";
             // 
             // clinic_search
             // 
@@ -343,11 +358,11 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
+            this.gb1.ResumeLayout(false);
+            this.gb2.ResumeLayout(false);
+            this.gb2.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -356,7 +371,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gb1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label3;
@@ -367,7 +382,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox gb2;
         private System.Windows.Forms.Button bt1;
         private System.Windows.Forms.Button bt2;
         private System.Windows.Forms.Label lb55;
@@ -380,5 +395,6 @@
         private System.Windows.Forms.Label lb2;
         private System.Windows.Forms.Label lb11;
         private System.Windows.Forms.Label lb1;
+        private System.Windows.Forms.Label label1;
     }
 }
