@@ -30,7 +30,18 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lb4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lb2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lb3 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -42,6 +53,7 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -49,6 +61,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -66,33 +79,22 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lb4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lb2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lb3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.รหัสคนไข้ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ชื่อสกุล = new System.Windows.Forms.DataGridViewLinkColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lb1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
+            this.ลำดับคิว = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.เวลา = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ชื่อสกุล = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.รหัสคนไข้ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -106,7 +108,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(974, 639);
+            this.panel1.Size = new System.Drawing.Size(1141, 639);
             this.panel1.TabIndex = 0;
             // 
             // groupBox3
@@ -128,12 +130,115 @@
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Location = new System.Drawing.Point(438, 32);
+            this.groupBox3.Location = new System.Drawing.Point(605, 32);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(524, 577);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ข้อมูลคนไข้";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.checkBox3);
+            this.groupBox2.Controls.Add(this.checkBox2);
+            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.lb4);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.lb2);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.lb3);
+            this.groupBox2.Location = new System.Drawing.Point(22, 295);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(483, 99);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "ห้องตรวจ";
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(89, 73);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(80, 17);
+            this.checkBox3.TabIndex = 7;
+            this.checkBox3.Text = "checkBox1";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(89, 46);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(80, 17);
+            this.checkBox2.TabIndex = 7;
+            this.checkBox2.Text = "checkBox1";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(89, 18);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(43, 73);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(40, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "ชื่อหมอ";
+            // 
+            // lb4
+            // 
+            this.lb4.AutoSize = true;
+            this.lb4.Location = new System.Drawing.Point(6, 73);
+            this.lb4.Name = "lb4";
+            this.lb4.Size = new System.Drawing.Size(31, 13);
+            this.lb4.TabIndex = 6;
+            this.lb4.Text = "ห้อง3";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(43, 46);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "ชื่อหมอ";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // lb2
+            // 
+            this.lb2.AutoSize = true;
+            this.lb2.Location = new System.Drawing.Point(6, 19);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(31, 13);
+            this.lb2.TabIndex = 6;
+            this.lb2.Text = "ห้อง1";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(43, 19);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "ชื่อหมอ";
+            // 
+            // lb3
+            // 
+            this.lb3.AutoSize = true;
+            this.lb3.Location = new System.Drawing.Point(6, 46);
+            this.lb3.Name = "lb3";
+            this.lb3.Size = new System.Drawing.Size(31, 13);
+            this.lb3.TabIndex = 6;
+            this.lb3.Text = "ห้อง2";
             // 
             // groupBox4
             // 
@@ -165,6 +270,15 @@
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "สุขภาพ";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(223, 35);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox7.Size = new System.Drawing.Size(248, 132);
+            this.textBox7.TabIndex = 2;
             // 
             // textBox6
             // 
@@ -253,6 +367,15 @@
             this.label25.TabIndex = 1;
             this.label25.Text = "น้ำหนัก :";
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(220, 15);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(58, 13);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "หมายเหตุ :";
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -325,6 +448,17 @@
             this.button4.TabIndex = 0;
             this.button4.Text = "up";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button9.Location = new System.Drawing.Point(445, 12);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(26, 20);
+            this.button9.TabIndex = 0;
+            this.button9.Text = "up";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -481,138 +615,23 @@
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Location = new System.Drawing.Point(12, 32);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(416, 577);
+            this.groupBox1.Size = new System.Drawing.Size(587, 577);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "คิวบริการ";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.checkBox3);
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.lb4);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.lb2);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.lb3);
-            this.groupBox2.Location = new System.Drawing.Point(22, 295);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(483, 99);
-            this.groupBox2.TabIndex = 5;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "ห้องตรวจ";
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(89, 73);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
-            this.checkBox3.TabIndex = 7;
-            this.checkBox3.Text = "checkBox1";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(89, 46);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
-            this.checkBox2.TabIndex = 7;
-            this.checkBox2.Text = "checkBox1";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(89, 18);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(43, 73);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "ชื่อหมอ";
-            // 
-            // lb4
-            // 
-            this.lb4.AutoSize = true;
-            this.lb4.Location = new System.Drawing.Point(6, 73);
-            this.lb4.Name = "lb4";
-            this.lb4.Size = new System.Drawing.Size(31, 13);
-            this.lb4.TabIndex = 6;
-            this.lb4.Text = "ห้อง3";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(43, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "ชื่อหมอ";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // lb2
-            // 
-            this.lb2.AutoSize = true;
-            this.lb2.Location = new System.Drawing.Point(6, 19);
-            this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(31, 13);
-            this.lb2.TabIndex = 6;
-            this.lb2.Text = "ห้อง1";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(43, 19);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "ชื่อหมอ";
-            // 
-            // lb3
-            // 
-            this.lb3.AutoSize = true;
-            this.lb3.Location = new System.Drawing.Point(6, 46);
-            this.lb3.Name = "lb3";
-            this.lb3.Size = new System.Drawing.Size(31, 13);
-            this.lb3.TabIndex = 6;
-            this.lb3.Text = "ห้อง2";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.รหัสคนไข้,
-            this.ชื่อสกุล});
+            this.ลำดับคิว,
+            this.เวลา,
+            this.ชื่อสกุล,
+            this.รหัสคนไข้});
             this.dataGridView1.Location = new System.Drawing.Point(6, 19);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(404, 544);
+            this.dataGridView1.Size = new System.Drawing.Size(575, 544);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // รหัสคนไข้
-            // 
-            this.รหัสคนไข้.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.รหัสคนไข้.HeaderText = "รหัสคนไข้";
-            this.รหัสคนไข้.Name = "รหัสคนไข้";
-            // 
-            // ชื่อสกุล
-            // 
-            this.ชื่อสกุล.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ชื่อสกุล.HeaderText = "ชื่อสกุล";
-            this.ชื่อสกุล.Name = "ชื่อสกุล";
-            this.ชื่อสกุล.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ชื่อสกุล.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // panel2
             // 
@@ -623,14 +642,14 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(974, 26);
+            this.panel2.Size = new System.Drawing.Size(1141, 26);
             this.panel2.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(902, 9);
+            this.label3.Location = new System.Drawing.Point(1069, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 1;
@@ -640,7 +659,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(658, 9);
+            this.label1.Location = new System.Drawing.Point(825, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 1;
@@ -650,7 +669,7 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(844, 9);
+            this.label2.Location = new System.Drawing.Point(1011, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 1;
@@ -660,7 +679,7 @@
             // 
             this.lb1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lb1.AutoSize = true;
-            this.lb1.Location = new System.Drawing.Point(747, 9);
+            this.lb1.Location = new System.Drawing.Point(914, 9);
             this.lb1.Name = "lb1";
             this.lb1.Size = new System.Drawing.Size(72, 13);
             this.lb1.TabIndex = 1;
@@ -671,43 +690,37 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 615);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(974, 24);
+            this.panel3.Size = new System.Drawing.Size(1141, 24);
             this.panel3.TabIndex = 3;
             // 
-            // textBox7
+            // ลำดับคิว
             // 
-            this.textBox7.Location = new System.Drawing.Point(223, 35);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox7.Size = new System.Drawing.Size(248, 132);
-            this.textBox7.TabIndex = 2;
+            this.ลำดับคิว.HeaderText = "ลำดับคิว";
+            this.ลำดับคิว.Name = "ลำดับคิว";
             // 
-            // label21
+            // เวลา
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(220, 15);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(58, 13);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "หมายเหตุ :";
+            this.เวลา.HeaderText = "เวลา";
+            this.เวลา.Name = "เวลา";
             // 
-            // button9
+            // ชื่อสกุล
             // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button9.Location = new System.Drawing.Point(445, 12);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(26, 20);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "up";
-            this.button9.UseVisualStyleBackColor = true;
+            this.ชื่อสกุล.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ชื่อสกุล.HeaderText = "ชื่อสกุล";
+            this.ชื่อสกุล.Name = "ชื่อสกุล";
+            this.ชื่อสกุล.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // รหัสคนไข้
+            // 
+            this.รหัสคนไข้.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.รหัสคนไข้.HeaderText = "รหัสคนไข้";
+            this.รหัสคนไข้.Name = "รหัสคนไข้";
             // 
             // clinc_nurse_service
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 639);
+            this.ClientSize = new System.Drawing.Size(1141, 639);
             this.Controls.Add(this.panel1);
             this.Name = "clinc_nurse_service";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -715,11 +728,11 @@
             this.panel1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -738,8 +751,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn รหัสคนไข้;
-        private System.Windows.Forms.DataGridViewLinkColumn ชื่อสกุล;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lb4;
@@ -789,5 +800,9 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ลำดับคิว;
+        private System.Windows.Forms.DataGridViewTextBoxColumn เวลา;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ชื่อสกุล;
+        private System.Windows.Forms.DataGridViewTextBoxColumn รหัสคนไข้;
     }
 }

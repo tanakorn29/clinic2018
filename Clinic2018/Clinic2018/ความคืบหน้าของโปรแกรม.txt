@@ -1,6 +1,9 @@
 ﻿clinic_login
 เพิ่มติมเมื่อล็อคอินเสร็จ ก็โปรแกรมปิดตัว และเมื่อออกจากระบบให้กลับมาที่ล็อคอิน
 
+clinic_search
+-ติดปัญหาเรื่องการค้นหา และการเชื่อมต่อไปที่ฟอร์มอื่น
+
 
 
 select opd.opd_id, opd.opd_name, opd.opd_idcard, opd.opd_birthday, position.pos_name

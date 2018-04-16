@@ -32,8 +32,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.S6 = new System.Windows.Forms.Label();
             this.S5 = new System.Windows.Forms.Label();
             this.S4 = new System.Windows.Forms.Label();
             this.S3 = new System.Windows.Forms.Label();
@@ -46,8 +46,8 @@
             this.L2 = new System.Windows.Forms.Label();
             this.L1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.tb1 = new System.Windows.Forms.TextBox();
+            this.S6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -108,24 +108,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ข้อมูล";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(408, 123);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "label1";
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(328, 239);
+            this.button1.Location = new System.Drawing.Point(222, 172);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 31);
             this.button1.TabIndex = 2;
             this.button1.Text = "อนุญาต";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // S6
-            // 
-            this.S6.AutoSize = true;
-            this.S6.Location = new System.Drawing.Point(179, 177);
-            this.S6.Name = "S6";
-            this.S6.Size = new System.Drawing.Size(14, 20);
-            this.S6.TabIndex = 1;
-            this.S6.Text = "-";
             // 
             // S5
             // 
@@ -228,7 +229,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.tb1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.groupBox2.Location = new System.Drawing.Point(512, 12);
             this.groupBox2.Name = "groupBox2";
@@ -237,30 +238,26 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ค้นหา";
             // 
-            // textBox2
+            // tb1
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.textBox2.ForeColor = System.Drawing.Color.Silver;
-            this.textBox2.Location = new System.Drawing.Point(6, 42);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 26);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "บัตรประชาชน";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox2_MouseClick);
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
-            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
+            this.tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.tb1.ForeColor = System.Drawing.Color.Silver;
+            this.tb1.Location = new System.Drawing.Point(6, 42);
+            this.tb1.Name = "tb1";
+            this.tb1.Size = new System.Drawing.Size(282, 26);
+            this.tb1.TabIndex = 5;
+            this.tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tb1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tb1_MouseClick);
+            this.tb1.TextChanged += new System.EventHandler(this.tb1_TextChanged);
             // 
-            // label1
+            // S6
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(408, 123);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.S6.AutoSize = true;
+            this.S6.Location = new System.Drawing.Point(179, 177);
+            this.S6.Name = "S6";
+            this.S6.Size = new System.Drawing.Size(14, 20);
+            this.S6.TabIndex = 1;
+            this.S6.Text = "-";
             // 
             // clinic_approve
             // 
@@ -293,14 +290,14 @@
         private System.Windows.Forms.Label S4;
         private System.Windows.Forms.Label S3;
         private System.Windows.Forms.Label S2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tb1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label S6;
         private System.Windows.Forms.Label S5;
         private System.Windows.Forms.Label L6;
         private System.Windows.Forms.Label L5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label S6;
     }
 }

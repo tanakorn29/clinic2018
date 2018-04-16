@@ -18,8 +18,6 @@ namespace Clinic2018
             InitializeComponent();
         }
 
-        
-
         private void B_login_Click(object sender, EventArgs e)
         {
             try

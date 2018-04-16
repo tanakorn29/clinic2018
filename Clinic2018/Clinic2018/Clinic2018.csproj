@@ -119,6 +119,12 @@
     <Compile Include="clinic_calendar.Designer.cs">
       <DependentUpon>clinic_calendar.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinic_confirm_send.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_confirm_send.Designer.cs">
+      <DependentUpon>clinic_confirm_send.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_doctor_service.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -241,6 +247,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_calendar.resx">
       <DependentUpon>clinic_calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_confirm_send.resx">
+      <DependentUpon>clinic_confirm_send.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_doctor_service.resx">
       <DependentUpon>clinic_doctor_service.cs</DependentUpon>

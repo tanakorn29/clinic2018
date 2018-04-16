@@ -68,11 +68,11 @@ namespace Clinic2018
                      dataGridView1.Rows[n].Cells[4].Value = item["privil_status"].ToString();
                  }
              //}
-            if (textBox1.Text != cmd.Connection.Database && textBox1.MaxLength == 13)
+            /*if (textBox1.Text != cmd.Connection.Database && textBox1.MaxLength == 13)
             {
                  clinic_approve cliapp = new clinic_approve();
                  cliapp.Show();
-             }
+            }*/
             //------------------------------ปิงปอง--------------------------------------
 
 
@@ -111,10 +111,24 @@ namespace Clinic2018
             }*/
             //------------------------------ไม่ได้ใช้ เก็บไว้ --------------------------------------
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*string query = ("update queue_visit_record set opd_idcard = '"+ dt DataGridTextBoxColumn + "'");
+            cmd = new SqlCommand(query, conn);
+            sda = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            sda.Fill(dt);*/
+        }
+
+        int selectedRow;
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            selectedRow = e.RowIndex;
+        }
     }
 }
 
-    
 
 
 
