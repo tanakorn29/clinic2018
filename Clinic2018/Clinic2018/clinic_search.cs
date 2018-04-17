@@ -42,7 +42,6 @@ namespace Clinic2018
         SqlCommand cmd;
         SqlDataAdapter sda;
         DataTable dt;
-        SqlDataReader drd;
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -128,6 +127,7 @@ namespace Clinic2018
             selectedRow = e.RowIndex;
             DataGridViewRow row = dataGridView1.Rows[selectedRow];
             lb11.Text = row.Cells[0].Value.ToString();
+            tb11.Text = row.Cells[0].Value.ToString(); //---------------
             lb22.Text = row.Cells[1].Value.ToString();
             lb33.Text = row.Cells[2].Value.ToString();
             lb44.Text = row.Cells[3].Value.ToString();
@@ -142,6 +142,7 @@ namespace Clinic2018
             dataGridView1.Refresh();
 
             lb11.Text = "";
+            tb11.Text = ""; //------------
             lb22.Text = "";
             lb33.Text = "";
             lb44.Text = "";
@@ -151,32 +152,69 @@ namespace Clinic2018
 
         private void bt2_Click(object sender, EventArgs e)
         {
-            string query = ("insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard values('123', SYSDATETIME(), SYSDATETIME(),'"+lb11.Text+"','123','"+lb11.Text+"')");
+            /*conn.Open();
+            string query = ("insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard) values('"+tb11.Text+ "', SYSDATETIME(), SYSDATETIME(),'" + tb11.Text+"','"+tb11.Text+"','"+tb11.Text+"')");
             cmd = new SqlCommand(query, conn);
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
             sda.Fill(dt);
+            conn.Close();
+            MessageBox.Show("สำเร็จ");*/
 
-            try
+            if (lb11.Text != null && lb22.Text != null && lb33.Text != null && lb44.Text != null && lb55.Text != null)
             {
                 conn.Open();
+                string query = ("insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard) values('"+lb11.Text+ "', SYSDATETIME(), SYSDATETIME(),'" + lb11.Text + "','" + lb11.Text + "','" + lb11.Text + "')");
+                cmd = new SqlCommand(query, conn);
+                sda = new SqlDataAdapter(cmd);
+                dt = new DataTable();
+                sda.Fill(dt);
+
+                MessageBox.Show("สำเร็จ");
+
+                textBox1.MaxLength = 13;
+                textBox1.Clear();
+                dataGridView1.Rows.Clear();
+                dataGridView1.Refresh();
+
+                lb11.Text = "";
+                tb11.Text = ""; //------------
+                lb22.Text = "";
+                lb33.Text = "";
+                lb44.Text = "";
+                lb55.Text = "";
+
+                conn.Close();
+            }
+            else if (lb11.Text == "-" && lb22.Text == "-" && lb33.Text == "-" && lb44.Text == "-" && lb55.Text == "-")
+            {
+                MessageBox.Show("ตรวจสอบข้อมูลอีกครั้ง");
+            }
+            
+            //----------------------------------------------------------------------
+            /*try
+            {
                 drd = cmd.ExecuteReader();
                 MessageBox.Show("Save");
                 while (drd.Read())
                 {
 
                 }
-
-            }catch(Exception ex)
+                
+            }
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
+            }*/
+
+            //----------------------------------------------------------------------
 
             /*string query = (" ");
             cmd = new SqlCommand(query, conn);
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
             sda.Fill(dt);*/
+
 
         }
     }

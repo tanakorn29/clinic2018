@@ -50,11 +50,12 @@
             this.lb22 = new System.Windows.Forms.Label();
             this.lb2 = new System.Windows.Forms.Label();
             this.lb11 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.lb1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tableAdapterManager1 = new Clinic2018.conn_patientTableAdapters.TableAdapterManager();
-            this.label1 = new System.Windows.Forms.Label();
+            this.tb11 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.gb1.SuspendLayout();
@@ -163,6 +164,7 @@
             // 
             // gb2
             // 
+            this.gb2.Controls.Add(this.tb11);
             this.gb2.Controls.Add(this.bt2);
             this.gb2.Controls.Add(this.bt1);
             this.gb2.Controls.Add(this.lb55);
@@ -292,6 +294,17 @@
             this.lb11.TabIndex = 9;
             this.lb11.Text = "-";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(381, 192);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "ส่งให้พยาบาล**";
+            // 
             // lb1
             // 
             this.lb1.AutoSize = true;
@@ -335,16 +348,12 @@
             this.tableAdapterManager1.patientTableAdapter = null;
             this.tableAdapterManager1.UpdateOrder = Clinic2018.conn_patientTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // label1
+            // tb11
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(381, 192);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 20);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "ส่งให้พยาบาล**";
+            this.tb11.Location = new System.Drawing.Point(274, 30);
+            this.tb11.Name = "tb11";
+            this.tb11.Size = new System.Drawing.Size(151, 26);
+            this.tb11.TabIndex = 13;
             // 
             // clinic_search
             // 
@@ -396,5 +405,6 @@
         private System.Windows.Forms.Label lb11;
         private System.Windows.Forms.Label lb1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tb11;
     }
 }

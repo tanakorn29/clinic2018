@@ -17,3 +17,6 @@ from opd
 inner join position On opd.pos_id = position.pos_id
 inner join user_control On user_control.opd_idcard = opd.opd_idcard
 where user_control.uct_user = 1102700111444
+
+insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard)
+values('"+tb11.Text+"', SYSDATETIME(), SYSDATETIME(),'"+tb11.Text+"','"+tb11.Text+"','"+tb11.Text+"')");
