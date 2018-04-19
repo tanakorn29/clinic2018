@@ -127,7 +127,6 @@ namespace Clinic2018
             selectedRow = e.RowIndex;
             DataGridViewRow row = dataGridView1.Rows[selectedRow];
             lb11.Text = row.Cells[0].Value.ToString();
-            tb11.Text = row.Cells[0].Value.ToString(); //---------------
             lb22.Text = row.Cells[1].Value.ToString();
             lb33.Text = row.Cells[2].Value.ToString();
             lb44.Text = row.Cells[3].Value.ToString();
@@ -136,61 +135,56 @@ namespace Clinic2018
 
         private void bt1_Click(object sender, EventArgs e)
         {
-            textBox1.MaxLength = 13;
             textBox1.Clear();
             dataGridView1.Rows.Clear();
             dataGridView1.Refresh();
 
             lb11.Text = "";
-            tb11.Text = ""; //------------
             lb22.Text = "";
             lb33.Text = "";
             lb44.Text = "";
             lb55.Text = "";
-
         }
 
         private void bt2_Click(object sender, EventArgs e)
         {
-            /*conn.Open();
-            string query = ("insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard) values('"+tb11.Text+ "', SYSDATETIME(), SYSDATETIME(),'" + tb11.Text+"','"+tb11.Text+"','"+tb11.Text+"')");
-            cmd = new SqlCommand(query, conn);
-            sda = new SqlDataAdapter(cmd);
-            dt = new DataTable();
-            sda.Fill(dt);
-            conn.Close();
-            MessageBox.Show("สำเร็จ");*/
-
-            if (lb11.Text != null && lb22.Text != null && lb33.Text != null && lb44.Text != null && lb55.Text != null)
+            conn.Open();
+            if (lb11.Text != cmd.Connection.Database &&
+                lb22.Text != cmd.Connection.Database &&
+                lb33.Text != cmd.Connection.Database &&
+                lb44.Text != cmd.Connection.Database && 
+                lb55.Text != cmd.Connection.Database )
             {
-                conn.Open();
-                string query = ("insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard) values('"+lb11.Text+ "', SYSDATETIME(), SYSDATETIME(),'" + lb11.Text + "','" + lb11.Text + "','" + lb11.Text + "')");
+               
+                string query = ("insert into queue_visit_record(qvr_record,qvr_time,qvr_date,emp_ru_id,vr_id,opd_idcard) values(' ', SYSDATETIME(), SYSDATETIME(),' ',' ',' ')");
                 cmd = new SqlCommand(query, conn);
                 sda = new SqlDataAdapter(cmd);
                 dt = new DataTable();
                 sda.Fill(dt);
 
+                //dataGridView1.Rows[n].Cells[0].Value = item["emp_ru_idcard"].ToString();
+
                 MessageBox.Show("สำเร็จ");
 
                 textBox1.MaxLength = 13;
-                textBox1.Clear();
+                textBox1.Clear();4
                 dataGridView1.Rows.Clear();
                 dataGridView1.Refresh();
 
                 lb11.Text = "";
-                tb11.Text = ""; //------------
                 lb22.Text = "";
                 lb33.Text = "";
                 lb44.Text = "";
                 lb55.Text = "";
 
-                conn.Close();
+                
             }
-            else if (lb11.Text == "-" && lb22.Text == "-" && lb33.Text == "-" && lb44.Text == "-" && lb55.Text == "-")
+            else
             {
                 MessageBox.Show("ตรวจสอบข้อมูลอีกครั้ง");
             }
-            
+            conn.Close();
+
             //----------------------------------------------------------------------
             /*try
             {

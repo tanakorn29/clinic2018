@@ -55,7 +55,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tableAdapterManager1 = new Clinic2018.conn_patientTableAdapters.TableAdapterManager();
-            this.tb11 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.gb1.SuspendLayout();
@@ -164,7 +163,6 @@
             // 
             // gb2
             // 
-            this.gb2.Controls.Add(this.tb11);
             this.gb2.Controls.Add(this.bt2);
             this.gb2.Controls.Add(this.bt1);
             this.gb2.Controls.Add(this.lb55);
@@ -210,9 +208,8 @@
             this.lb55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.lb55.Location = new System.Drawing.Point(150, 151);
             this.lb55.Name = "lb55";
-            this.lb55.Size = new System.Drawing.Size(14, 20);
+            this.lb55.Size = new System.Drawing.Size(0, 20);
             this.lb55.TabIndex = 1;
-            this.lb55.Text = "-";
             // 
             // label5
             // 
@@ -230,9 +227,8 @@
             this.lb44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.lb44.Location = new System.Drawing.Point(150, 121);
             this.lb44.Name = "lb44";
-            this.lb44.Size = new System.Drawing.Size(14, 20);
+            this.lb44.Size = new System.Drawing.Size(0, 20);
             this.lb44.TabIndex = 3;
-            this.lb44.Text = "-";
             // 
             // lb4
             // 
@@ -250,9 +246,8 @@
             this.lb33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.lb33.Location = new System.Drawing.Point(150, 91);
             this.lb33.Name = "lb33";
-            this.lb33.Size = new System.Drawing.Size(14, 20);
+            this.lb33.Size = new System.Drawing.Size(0, 20);
             this.lb33.TabIndex = 5;
-            this.lb33.Text = "-";
             // 
             // lb3
             // 
@@ -270,9 +265,8 @@
             this.lb22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.lb22.Location = new System.Drawing.Point(150, 61);
             this.lb22.Name = "lb22";
-            this.lb22.Size = new System.Drawing.Size(14, 20);
+            this.lb22.Size = new System.Drawing.Size(0, 20);
             this.lb22.TabIndex = 7;
-            this.lb22.Text = "-";
             // 
             // lb2
             // 
@@ -290,9 +284,8 @@
             this.lb11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.lb11.Location = new System.Drawing.Point(150, 31);
             this.lb11.Name = "lb11";
-            this.lb11.Size = new System.Drawing.Size(14, 20);
+            this.lb11.Size = new System.Drawing.Size(0, 20);
             this.lb11.TabIndex = 9;
-            this.lb11.Text = "-";
             // 
             // label1
             // 
@@ -348,13 +341,6 @@
             this.tableAdapterManager1.patientTableAdapter = null;
             this.tableAdapterManager1.UpdateOrder = Clinic2018.conn_patientTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // tb11
-            // 
-            this.tb11.Location = new System.Drawing.Point(274, 30);
-            this.tb11.Name = "tb11";
-            this.tb11.Size = new System.Drawing.Size(151, 26);
-            this.tb11.TabIndex = 13;
-            // 
             // clinic_search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -405,6 +391,5 @@
         private System.Windows.Forms.Label lb11;
         private System.Windows.Forms.Label lb1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tb11;
     }
 }

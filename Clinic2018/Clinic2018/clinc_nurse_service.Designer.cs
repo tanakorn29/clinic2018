@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -80,16 +81,20 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ลำดับคิว = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.เวลา = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ชื่อสกุล = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.รหัสคนไข้ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lb1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.ลำดับคิว = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.เวลา = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ชื่อสกุล = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.รหัสคนไข้ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataSet2 = new Clinic2018.DataSet2();
+            this.queuevisitrecordBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.queue_visit_recordTableAdapter = new Clinic2018.DataSet2TableAdapters.queue_visit_recordTableAdapter();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -97,6 +102,8 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.queuevisitrecordBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -211,7 +218,6 @@
             this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "ชื่อหมอ";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // lb2
             // 
@@ -551,7 +557,6 @@
             this.label17.Size = new System.Drawing.Size(33, 13);
             this.label17.TabIndex = 1;
             this.label17.Text = "ที่อยู่ :";
-            this.label17.Click += new System.EventHandler(this.label9_Click);
             // 
             // label9
             // 
@@ -561,7 +566,6 @@
             this.label9.Size = new System.Drawing.Size(46, 13);
             this.label9.TabIndex = 1;
             this.label9.Text = "วันเกิด :";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label14
             // 
@@ -571,7 +575,6 @@
             this.label14.Size = new System.Drawing.Size(10, 13);
             this.label14.TabIndex = 1;
             this.label14.Text = "-";
-            this.label14.Click += new System.EventHandler(this.label8_Click);
             // 
             // label8
             // 
@@ -581,7 +584,6 @@
             this.label8.Size = new System.Drawing.Size(10, 13);
             this.label8.TabIndex = 1;
             this.label8.Text = "-";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label13
             // 
@@ -622,6 +624,8 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ลำดับคิว,
@@ -630,8 +634,37 @@
             this.รหัสคนไข้});
             this.dataGridView1.Location = new System.Drawing.Point(6, 19);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(575, 544);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ลำดับคิว
+            // 
+            this.ลำดับคิว.HeaderText = "ลำดับคิว";
+            this.ลำดับคิว.Name = "ลำดับคิว";
+            this.ลำดับคิว.ReadOnly = true;
+            // 
+            // เวลา
+            // 
+            this.เวลา.HeaderText = "เวลา";
+            this.เวลา.Name = "เวลา";
+            this.เวลา.ReadOnly = true;
+            // 
+            // ชื่อสกุล
+            // 
+            this.ชื่อสกุล.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ชื่อสกุล.HeaderText = "ชื่อสกุล";
+            this.ชื่อสกุล.Name = "ชื่อสกุล";
+            this.ชื่อสกุล.ReadOnly = true;
+            this.ชื่อสกุล.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // รหัสคนไข้
+            // 
+            this.รหัสคนไข้.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.รหัสคนไข้.HeaderText = "รหัสคนไข้";
+            this.รหัสคนไข้.Name = "รหัสคนไข้";
+            this.รหัสคนไข้.ReadOnly = true;
             // 
             // panel2
             // 
@@ -693,28 +726,25 @@
             this.panel3.Size = new System.Drawing.Size(1141, 24);
             this.panel3.TabIndex = 3;
             // 
-            // ลำดับคิว
+            // dataSet2
             // 
-            this.ลำดับคิว.HeaderText = "ลำดับคิว";
-            this.ลำดับคิว.Name = "ลำดับคิว";
+            this.dataSet2.DataSetName = "DataSet2";
+            this.dataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // เวลา
+            // queuevisitrecordBindingSource
             // 
-            this.เวลา.HeaderText = "เวลา";
-            this.เวลา.Name = "เวลา";
+            this.queuevisitrecordBindingSource.DataMember = "queue_visit_record";
+            this.queuevisitrecordBindingSource.DataSource = this.dataSet2;
             // 
-            // ชื่อสกุล
+            // queue_visit_recordTableAdapter
             // 
-            this.ชื่อสกุล.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ชื่อสกุล.HeaderText = "ชื่อสกุล";
-            this.ชื่อสกุล.Name = "ชื่อสกุล";
-            this.ชื่อสกุล.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.queue_visit_recordTableAdapter.ClearBeforeFill = true;
             // 
-            // รหัสคนไข้
+            // dataGridViewTextBoxColumn1
             // 
-            this.รหัสคนไข้.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.รหัสคนไข้.HeaderText = "รหัสคนไข้";
-            this.รหัสคนไข้.Name = "รหัสคนไข้";
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "qvr_time";
+            this.dataGridViewTextBoxColumn1.HeaderText = "qvr_time";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
             // clinc_nurse_service
             // 
@@ -725,6 +755,7 @@
             this.Name = "clinc_nurse_service";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "คิวบริการ - ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย ";
+            this.Load += new System.EventHandler(this.clinc_nurse_service_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -736,6 +767,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.queuevisitrecordBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -804,5 +837,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn เวลา;
         private System.Windows.Forms.DataGridViewTextBoxColumn ชื่อสกุล;
         private System.Windows.Forms.DataGridViewTextBoxColumn รหัสคนไข้;
+        private DataSet2 dataSet2;
+        private System.Windows.Forms.BindingSource queuevisitrecordBindingSource;
+        private DataSet2TableAdapters.queue_visit_recordTableAdapter queue_visit_recordTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
     }
 }
