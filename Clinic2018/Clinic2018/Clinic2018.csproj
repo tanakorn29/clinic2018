@@ -101,6 +101,12 @@
     <Compile Include="clinc_nurse_service.Designer.cs">
       <DependentUpon>clinc_nurse_service.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinic_appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_appointment.Designer.cs">
+      <DependentUpon>clinic_appointment.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_approve_step2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +249,9 @@
     </Compile>
     <EmbeddedResource Include="clinc_nurse_service.resx">
       <DependentUpon>clinc_nurse_service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_appointment.resx">
+      <DependentUpon>clinic_appointment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_approve_step2.resx">
       <DependentUpon>clinic_approve_step2.cs</DependentUpon>
@@ -407,6 +416,10 @@
     <None Include="Resources\ic_text_document.png" />
     <None Include="Resources\folder-documents-icon.png" />
     <None Include="Resources\folder-documents-icon1.png" />
+    <None Include="Resources\search-icon-7.png" />
+    <None Include="Resources\search-icon-71.png" />
+    <None Include="Resources\nurse-icon.png" />
+    <None Include="Resources\DrB_welcome-2-e1498564511141.png" />
     <Content Include="ความคืบหน้าของโปรแกรม.txt" />
     <Content Include="โค๊ดที่ต้องใช้.txt" />
   </ItemGroup>

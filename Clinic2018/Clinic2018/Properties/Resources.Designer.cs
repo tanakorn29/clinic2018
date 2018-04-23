@@ -73,6 +73,16 @@ namespace Clinic2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DrB_welcome_2_e1498564511141 {
+            get {
+                object obj = ResourceManager.GetObject("DrB_welcome-2-e1498564511141", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap folder_documents_icon {
             get {
                 object obj = ResourceManager.GetObject("folder-documents-icon", resourceCulture);
@@ -176,6 +186,36 @@ namespace Clinic2018.Properties {
         internal static System.Drawing.Bitmap logo_Heart_Care {
             get {
                 object obj = ResourceManager.GetObject("logo_Heart_Care", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nurse_icon {
+            get {
+                object obj = ResourceManager.GetObject("nurse-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_icon_7 {
+            get {
+                object obj = ResourceManager.GetObject("search-icon-7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_icon_71 {
+            get {
+                object obj = ResourceManager.GetObject("search-icon-71", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

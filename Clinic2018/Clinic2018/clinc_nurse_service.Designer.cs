@@ -81,10 +81,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ลำดับคิว = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.เวลา = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ชื่อสกุล = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.รหัสคนไข้ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -95,6 +91,10 @@
             this.queuevisitrecordBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.queue_visit_recordTableAdapter = new Clinic2018.DataSet2TableAdapters.queue_visit_recordTableAdapter();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -628,43 +628,16 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ลำดับคิว,
-            this.เวลา,
-            this.ชื่อสกุล,
-            this.รหัสคนไข้});
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4});
             this.dataGridView1.Location = new System.Drawing.Point(6, 19);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(575, 544);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // ลำดับคิว
-            // 
-            this.ลำดับคิว.HeaderText = "ลำดับคิว";
-            this.ลำดับคิว.Name = "ลำดับคิว";
-            this.ลำดับคิว.ReadOnly = true;
-            // 
-            // เวลา
-            // 
-            this.เวลา.HeaderText = "เวลา";
-            this.เวลา.Name = "เวลา";
-            this.เวลา.ReadOnly = true;
-            // 
-            // ชื่อสกุล
-            // 
-            this.ชื่อสกุล.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ชื่อสกุล.HeaderText = "ชื่อสกุล";
-            this.ชื่อสกุล.Name = "ชื่อสกุล";
-            this.ชื่อสกุล.ReadOnly = true;
-            this.ชื่อสกุล.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // รหัสคนไข้
-            // 
-            this.รหัสคนไข้.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.รหัสคนไข้.HeaderText = "รหัสคนไข้";
-            this.รหัสคนไข้.Name = "รหัสคนไข้";
-            this.รหัสคนไข้.ReadOnly = true;
             // 
             // panel2
             // 
@@ -745,6 +718,35 @@
             this.dataGridViewTextBoxColumn1.DataPropertyName = "qvr_time";
             this.dataGridViewTextBoxColumn1.HeaderText = "qvr_time";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.HeaderText = "ลำดับคิว";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.HeaderText = "เวลา";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.HeaderText = "ชื่อสกุล";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.HeaderText = "รหัสคนไข้";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
             // clinc_nurse_service
             // 
@@ -833,13 +835,13 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ลำดับคิว;
-        private System.Windows.Forms.DataGridViewTextBoxColumn เวลา;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ชื่อสกุล;
-        private System.Windows.Forms.DataGridViewTextBoxColumn รหัสคนไข้;
         private DataSet2 dataSet2;
         private System.Windows.Forms.BindingSource queuevisitrecordBindingSource;
         private DataSet2TableAdapters.queue_visit_recordTableAdapter queue_visit_recordTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

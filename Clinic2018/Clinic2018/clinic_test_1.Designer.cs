@@ -180,14 +180,14 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "ผลการค้นหารายชื่อ";
             // 
-            // clinic_search
+            // clinic_test_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1094, 607);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "clinic_search";
+            this.Name = "clinic_test_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ประวัติ";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;

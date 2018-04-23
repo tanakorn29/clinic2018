@@ -34,6 +34,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.S6 = new System.Windows.Forms.Label();
             this.S5 = new System.Windows.Forms.Label();
             this.S4 = new System.Windows.Forms.Label();
             this.S3 = new System.Windows.Forms.Label();
@@ -47,7 +48,6 @@
             this.L1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tb1 = new System.Windows.Forms.TextBox();
-            this.S6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -127,6 +127,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // S6
+            // 
+            this.S6.AutoSize = true;
+            this.S6.Location = new System.Drawing.Point(179, 177);
+            this.S6.Name = "S6";
+            this.S6.Size = new System.Drawing.Size(14, 20);
+            this.S6.TabIndex = 1;
+            this.S6.Text = "-";
             // 
             // S5
             // 
@@ -241,7 +250,7 @@
             // tb1
             // 
             this.tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.tb1.ForeColor = System.Drawing.Color.Silver;
+            this.tb1.ForeColor = System.Drawing.Color.Black;
             this.tb1.Location = new System.Drawing.Point(6, 42);
             this.tb1.Name = "tb1";
             this.tb1.Size = new System.Drawing.Size(282, 26);
@@ -249,15 +258,6 @@
             this.tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tb1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tb1_MouseClick);
             this.tb1.TextChanged += new System.EventHandler(this.tb1_TextChanged);
-            // 
-            // S6
-            // 
-            this.S6.AutoSize = true;
-            this.S6.Location = new System.Drawing.Point(179, 177);
-            this.S6.Name = "S6";
-            this.S6.Size = new System.Drawing.Size(14, 20);
-            this.S6.TabIndex = 1;
-            this.S6.Text = "-";
             // 
             // clinic_approve
             // 

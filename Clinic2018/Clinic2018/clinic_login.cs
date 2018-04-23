@@ -31,12 +31,13 @@ namespace Clinic2018
                 if (dr.HasRows == true)
                 {
                     MessageBox.Show("ยินดีต้อนรับ" + " " + T_Username.Text);
-
-                    clinic_main_v2 m2 = new clinic_main_v2();
-                    m2.Show();
+                    
                     clinic_login clnlog = new clinic_login();
                     clnlog.Close();
                     Visible = false;
+
+                    clinic_main_v2 m2 = new clinic_main_v2();
+                    m2.Show();
                 }
 
                 else

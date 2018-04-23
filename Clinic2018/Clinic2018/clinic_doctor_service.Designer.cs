@@ -31,8 +31,44 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lb2 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label41 = new System.Windows.Forms.Label();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.lb2 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.button16 = new System.Windows.Forms.Button();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.button17 = new System.Windows.Forms.Button();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.button19 = new System.Windows.Forms.Button();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -40,6 +76,11 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
@@ -47,14 +88,24 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -74,66 +125,15 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button11 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button14 = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.button15 = new System.Windows.Forms.Button();
-            this.label29 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.label41 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -206,14 +206,162 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ข้อมูลการรักษาแพทย์";
             // 
-            // lb2
+            // groupBox5
             // 
-            this.lb2.AutoSize = true;
-            this.lb2.Location = new System.Drawing.Point(6, 19);
-            this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(77, 13);
-            this.lb2.TabIndex = 6;
-            this.lb2.Text = "หมายเลขห้อง : ";
+            this.groupBox5.Controls.Add(this.dataGridView3);
+            this.groupBox5.Controls.Add(this.dataGridView2);
+            this.groupBox5.Controls.Add(this.label41);
+            this.groupBox5.Controls.Add(this.textBox20);
+            this.groupBox5.Controls.Add(this.button23);
+            this.groupBox5.Controls.Add(this.button22);
+            this.groupBox5.Controls.Add(this.button24);
+            this.groupBox5.Location = new System.Drawing.Point(283, 40);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(649, 275);
+            this.groupBox5.TabIndex = 7;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "จ่ายยา";
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(344, 44);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(301, 177);
+            this.dataGridView3.TabIndex = 0;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(7, 44);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(299, 177);
+            this.dataGridView2.TabIndex = 0;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(6, 21);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(43, 13);
+            this.label41.TabIndex = 1;
+            this.label41.Text = "ค้นหา : ";
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(49, 17);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(257, 20);
+            this.textBox20.TabIndex = 2;
+            // 
+            // button23
+            // 
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button23.Location = new System.Drawing.Point(312, 100);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(26, 20);
+            this.button23.TabIndex = 0;
+            this.button23.Text = ">";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button22.Location = new System.Drawing.Point(312, 124);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(26, 20);
+            this.button22.TabIndex = 0;
+            this.button22.Text = "<";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button24.Location = new System.Drawing.Point(544, 227);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(99, 31);
+            this.button24.TabIndex = 0;
+            this.button24.Text = "จ่ายยา";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.label39);
+            this.groupBox1.Controls.Add(this.label40);
+            this.groupBox1.Location = new System.Drawing.Point(11, 198);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(242, 84);
+            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabStop = false;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(61, 19);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(143, 21);
+            this.comboBox2.TabIndex = 8;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(61, 45);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(143, 21);
+            this.comboBox1.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button1.Location = new System.Drawing.Point(210, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(26, 47);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "up";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(3, 23);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(58, 13);
+            this.label39.TabIndex = 1;
+            this.label39.Text = "แพทย์นัด :";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(11, 50);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(50, 13);
+            this.label40.TabIndex = 1;
+            this.label40.Text = "เวลานัด :";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(399, 19);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(10, 13);
+            this.label34.TabIndex = 6;
+            this.label34.Text = "-";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(227, 19);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(10, 13);
+            this.label31.TabIndex = 6;
+            this.label31.Text = "-";
             // 
             // label4
             // 
@@ -223,6 +371,195 @@
             this.label4.Size = new System.Drawing.Size(10, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "-";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(325, 19);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(68, 13);
+            this.label32.TabIndex = 6;
+            this.label32.Text = "เวลาทำงาน : ";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(175, 19);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(46, 13);
+            this.label30.TabIndex = 6;
+            this.label30.Text = "แพทย์ : ";
+            // 
+            // lb2
+            // 
+            this.lb2.AutoSize = true;
+            this.lb2.Location = new System.Drawing.Point(6, 19);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(77, 13);
+            this.lb2.TabIndex = 6;
+            this.lb2.Text = "หมายเลขห้อง : ";
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(92, 172);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(130, 20);
+            this.textBox19.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(8, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "ผมการรักษา 1 :";
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(92, 145);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(130, 20);
+            this.textBox18.TabIndex = 2;
+            // 
+            // button16
+            // 
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button16.Location = new System.Drawing.Point(227, 40);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(26, 20);
+            this.button16.TabIndex = 0;
+            this.button16.Text = "up";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(92, 118);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(130, 20);
+            this.textBox17.TabIndex = 2;
+            // 
+            // button17
+            // 
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button17.Location = new System.Drawing.Point(227, 64);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(26, 20);
+            this.button17.TabIndex = 0;
+            this.button17.Text = "up";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(92, 91);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(130, 20);
+            this.textBox16.TabIndex = 2;
+            // 
+            // button18
+            // 
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button18.Location = new System.Drawing.Point(227, 91);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(26, 20);
+            this.button18.TabIndex = 0;
+            this.button18.Text = "up";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(92, 64);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(130, 20);
+            this.textBox15.TabIndex = 2;
+            // 
+            // button19
+            // 
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button19.Location = new System.Drawing.Point(227, 118);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(26, 20);
+            this.button19.TabIndex = 0;
+            this.button19.Text = "up";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(92, 40);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(130, 20);
+            this.textBox14.TabIndex = 2;
+            // 
+            // button20
+            // 
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button20.Location = new System.Drawing.Point(227, 145);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(26, 20);
+            this.button20.TabIndex = 0;
+            this.button20.Text = "up";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button21.Location = new System.Drawing.Point(227, 172);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(26, 20);
+            this.button21.TabIndex = 0;
+            this.button21.Text = "up";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(8, 66);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(80, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "ผมการรักษา 2 :";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(8, 93);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(80, 13);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "ผมการรักษา 3 :";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(8, 120);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(80, 13);
+            this.label36.TabIndex = 1;
+            this.label36.Text = "ผมการรักษา 4 :";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(8, 147);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(80, 13);
+            this.label37.TabIndex = 1;
+            this.label37.Text = "ผมการรักษา 5 :";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(8, 174);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(80, 13);
+            this.label38.TabIndex = 1;
+            this.label38.Text = "ผมการรักษา 6 :";
             // 
             // groupBox4
             // 
@@ -317,6 +654,41 @@
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 2;
             // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(366, 145);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(100, 20);
+            this.textBox13.TabIndex = 2;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(366, 118);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(100, 20);
+            this.textBox12.TabIndex = 2;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(366, 91);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 20);
+            this.textBox11.TabIndex = 2;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(366, 64);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 20);
+            this.textBox10.TabIndex = 2;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(366, 37);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 20);
+            this.textBox9.TabIndex = 2;
+            // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(366, 13);
@@ -376,6 +748,51 @@
             this.label25.TabIndex = 1;
             this.label25.Text = "น้ำหนัก :";
             // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(252, 147);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(109, 13);
+            this.label29.TabIndex = 1;
+            this.label29.Text = "อาการป่วยเป็นโรค 6 :";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(252, 120);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(109, 13);
+            this.label28.TabIndex = 1;
+            this.label28.Text = "อาการป่วยเป็นโรค 5 :";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(252, 93);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(109, 13);
+            this.label22.TabIndex = 1;
+            this.label22.Text = "อาการป่วยเป็นโรค 4 :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(252, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(109, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "อาการป่วยเป็นโรค 3 :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(252, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "อาการป่วยเป็นโรค 2 :";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -412,6 +829,17 @@
             this.button2.Text = "ส่งตรวจ";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // button15
+            // 
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button15.Location = new System.Drawing.Point(471, 145);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(26, 20);
+            this.button15.TabIndex = 0;
+            this.button15.Text = "up";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
             // button8
             // 
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -422,6 +850,17 @@
             this.button8.TabIndex = 0;
             this.button8.Text = "up";
             this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button14.Location = new System.Drawing.Point(471, 118);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(26, 20);
+            this.button14.TabIndex = 0;
+            this.button14.Text = "up";
+            this.button14.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
@@ -434,6 +873,17 @@
             this.button7.Text = "up";
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // button13
+            // 
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button13.Location = new System.Drawing.Point(471, 91);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(26, 20);
+            this.button13.TabIndex = 0;
+            this.button13.Text = "up";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
             // button6
             // 
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -445,6 +895,17 @@
             this.button6.Text = "up";
             this.button6.UseVisualStyleBackColor = true;
             // 
+            // button12
+            // 
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button12.Location = new System.Drawing.Point(471, 64);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(26, 20);
+            this.button12.TabIndex = 0;
+            this.button12.Text = "up";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
             // button5
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -455,6 +916,17 @@
             this.button5.TabIndex = 0;
             this.button5.Text = "up";
             this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button11.Location = new System.Drawing.Point(471, 37);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(26, 20);
+            this.button11.TabIndex = 0;
+            this.button11.Text = "up";
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -634,478 +1106,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(950, 106);
             this.dataGridView1.TabIndex = 0;
             // 
-            // button11
-            // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button11.Location = new System.Drawing.Point(471, 37);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(26, 20);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "up";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(252, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "อาการป่วยเป็นโรค 2 :";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(366, 37);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 2;
-            // 
-            // button12
-            // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button12.Location = new System.Drawing.Point(471, 64);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(26, 20);
-            this.button12.TabIndex = 0;
-            this.button12.Text = "up";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(252, 66);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "อาการป่วยเป็นโรค 3 :";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(366, 64);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 2;
-            // 
-            // button13
-            // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button13.Location = new System.Drawing.Point(471, 91);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(26, 20);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "up";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(252, 93);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(109, 13);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "อาการป่วยเป็นโรค 4 :";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(366, 91);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 2;
-            // 
-            // button14
-            // 
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button14.Location = new System.Drawing.Point(471, 118);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(26, 20);
-            this.button14.TabIndex = 0;
-            this.button14.Text = "up";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(252, 120);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(109, 13);
-            this.label28.TabIndex = 1;
-            this.label28.Text = "อาการป่วยเป็นโรค 5 :";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(366, 118);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 2;
-            // 
-            // button15
-            // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button15.Location = new System.Drawing.Point(471, 145);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(26, 20);
-            this.button15.TabIndex = 0;
-            this.button15.Text = "up";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(252, 147);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(109, 13);
-            this.label29.TabIndex = 1;
-            this.label29.Text = "อาการป่วยเป็นโรค 6 :";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(366, 145);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 2;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(175, 19);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(46, 13);
-            this.label30.TabIndex = 6;
-            this.label30.Text = "แพทย์ : ";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(227, 19);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(10, 13);
-            this.label31.TabIndex = 6;
-            this.label31.Text = "-";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(325, 19);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(68, 13);
-            this.label32.TabIndex = 6;
-            this.label32.Text = "เวลาทำงาน : ";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(399, 19);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(10, 13);
-            this.label34.TabIndex = 6;
-            this.label34.Text = "-";
-            // 
-            // button16
-            // 
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button16.Location = new System.Drawing.Point(227, 40);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(26, 20);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "up";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button17.Location = new System.Drawing.Point(227, 64);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(26, 20);
-            this.button17.TabIndex = 0;
-            this.button17.Text = "up";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button18.Location = new System.Drawing.Point(227, 91);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(26, 20);
-            this.button18.TabIndex = 0;
-            this.button18.Text = "up";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button19.Location = new System.Drawing.Point(227, 118);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(26, 20);
-            this.button19.TabIndex = 0;
-            this.button19.Text = "up";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button20.Location = new System.Drawing.Point(227, 145);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(26, 20);
-            this.button20.TabIndex = 0;
-            this.button20.Text = "up";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button21.Location = new System.Drawing.Point(227, 172);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(26, 20);
-            this.button21.TabIndex = 0;
-            this.button21.Text = "up";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "ผมการรักษา 1 :";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 66);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "ผมการรักษา 2 :";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(8, 93);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(80, 13);
-            this.label35.TabIndex = 1;
-            this.label35.Text = "ผมการรักษา 3 :";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(8, 120);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(80, 13);
-            this.label36.TabIndex = 1;
-            this.label36.Text = "ผมการรักษา 4 :";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(8, 147);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(80, 13);
-            this.label37.TabIndex = 1;
-            this.label37.Text = "ผมการรักษา 5 :";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(8, 174);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(80, 13);
-            this.label38.TabIndex = 1;
-            this.label38.Text = "ผมการรักษา 6 :";
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(92, 40);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(130, 20);
-            this.textBox14.TabIndex = 2;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(92, 64);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(130, 20);
-            this.textBox15.TabIndex = 2;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(92, 91);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(130, 20);
-            this.textBox16.TabIndex = 2;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(92, 118);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(130, 20);
-            this.textBox17.TabIndex = 2;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(92, 145);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(130, 20);
-            this.textBox18.TabIndex = 2;
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(92, 172);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(130, 20);
-            this.textBox19.TabIndex = 2;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.label39);
-            this.groupBox1.Controls.Add(this.label40);
-            this.groupBox1.Location = new System.Drawing.Point(11, 198);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(242, 84);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button1.Location = new System.Drawing.Point(210, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(26, 47);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "up";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(3, 23);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(58, 13);
-            this.label39.TabIndex = 1;
-            this.label39.Text = "แพทย์นัด :";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(11, 50);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(50, 13);
-            this.label40.TabIndex = 1;
-            this.label40.Text = "เวลานัด :";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(61, 45);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(143, 21);
-            this.comboBox1.TabIndex = 8;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(61, 19);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(143, 21);
-            this.comboBox2.TabIndex = 8;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.dataGridView3);
-            this.groupBox5.Controls.Add(this.dataGridView2);
-            this.groupBox5.Controls.Add(this.label41);
-            this.groupBox5.Controls.Add(this.textBox20);
-            this.groupBox5.Controls.Add(this.button23);
-            this.groupBox5.Controls.Add(this.button22);
-            this.groupBox5.Controls.Add(this.button24);
-            this.groupBox5.Location = new System.Drawing.Point(283, 40);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(649, 275);
-            this.groupBox5.TabIndex = 7;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "จ่ายยา";
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(7, 44);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(299, 177);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(6, 21);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(43, 13);
-            this.label41.TabIndex = 1;
-            this.label41.Text = "ค้นหา : ";
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(49, 17);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(246, 20);
-            this.textBox20.TabIndex = 2;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(344, 44);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(301, 177);
-            this.dataGridView3.TabIndex = 0;
-            // 
-            // button22
-            // 
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button22.Location = new System.Drawing.Point(312, 124);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(26, 20);
-            this.button22.TabIndex = 0;
-            this.button22.Text = "<";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button23.Location = new System.Drawing.Point(312, 100);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(26, 20);
-            this.button23.TabIndex = 0;
-            this.button23.Text = ">";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button24.Location = new System.Drawing.Point(544, 227);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(99, 31);
-            this.button24.TabIndex = 0;
-            this.button24.Text = "จ่ายยา";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
             // clinic_doctor_service
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1121,15 +1121,15 @@
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
