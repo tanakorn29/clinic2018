@@ -25,27 +25,26 @@ namespace Clinic2018
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            string query = ("select * from employee_ru eru, opd, privilege where eru.emp_ru_idcard = opd.emp_ru_id and opd.emp_ru_id = privilege.emp_ru_idcard and eru.emp_ru_idcard = '" + textBox1.Text + "'");
+            string query = ("select qvr_date, qvr_time, emp_ru_name from queue_visit_record inner join employee_ru on employee_ru.emp_ru_idcard = queue_visit_record.emp_ru_id");
             cmd = new SqlCommand(query, conn);
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
             sda.Fill(dt);
-
+           
             foreach (DataRow item in dt.Rows)
             {
                 int n = dataGridView1.Rows.Add();
-                dataGridView1.Rows[n].Cells[0].Value = item["emp_ru_idcard"].ToString();
-                dataGridView1.Rows[n].Cells[1].Value = item["emp_ru_name"].ToString();
-                dataGridView1.Rows[n].Cells[2].Value = item["emp_ru_birthday"].ToString();
-                dataGridView1.Rows[n].Cells[3].Value = item["emp_ru_telmobile"].ToString();
+                dataGridView1.Rows[n].Cells[0].Value = item[" "].ToString();
+                dataGridView1.Rows[n].Cells[1].Value = item["qvr_date"].ToString();
+                dataGridView1.Rows[n].Cells[2].Value = item["qvr_time"].ToString();
+                dataGridView1.Rows[n].Cells[3].Value = item["emp_ru_name"].ToString();
+                dataGridView1.Rows[n].Cells[4].Value = item[" "].ToString();
             }
         }
 
         private void clinc_nurse_service_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'dataSet2.queue_visit_record' table. You can move, or remove it, as needed.
-            this.queue_visit_recordTableAdapter.Fill(this.dataSet2.queue_visit_record);
-
         }
     }
 }

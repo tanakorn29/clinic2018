@@ -87,7 +87,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lb1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dataSet2 = new Clinic2018.DataSet2();
             this.queuevisitrecordBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.queue_visit_recordTableAdapter = new Clinic2018.DataSet2TableAdapters.queue_visit_recordTableAdapter();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -95,6 +94,7 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -102,7 +102,6 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.queuevisitrecordBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -631,7 +630,8 @@
             this.Column1,
             this.Column2,
             this.Column3,
-            this.Column4});
+            this.Column4,
+            this.Column5});
             this.dataGridView1.Location = new System.Drawing.Point(6, 19);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -699,16 +699,6 @@
             this.panel3.Size = new System.Drawing.Size(1141, 24);
             this.panel3.TabIndex = 3;
             // 
-            // dataSet2
-            // 
-            this.dataSet2.DataSetName = "DataSet2";
-            this.dataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // queuevisitrecordBindingSource
-            // 
-            this.queuevisitrecordBindingSource.DataMember = "queue_visit_record";
-            this.queuevisitrecordBindingSource.DataSource = this.dataSet2;
-            // 
             // queue_visit_recordTableAdapter
             // 
             this.queue_visit_recordTableAdapter.ClearBeforeFill = true;
@@ -729,24 +719,31 @@
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "เวลา";
+            this.Column2.HeaderText = "วัน เดือน ปี";
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "ชื่อสกุล";
+            this.Column3.HeaderText = "เวลา";
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
-            this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.HeaderText = "รหัสคนไข้";
+            this.Column4.HeaderText = "ชื่อสกุล";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
+            this.Column4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.HeaderText = "รหัสคนไข้";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             // 
             // clinc_nurse_service
             // 
@@ -769,7 +766,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.queuevisitrecordBindingSource)).EndInit();
             this.ResumeLayout(false);
 
@@ -835,7 +831,6 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button button9;
-        private DataSet2 dataSet2;
         private System.Windows.Forms.BindingSource queuevisitrecordBindingSource;
         private DataSet2TableAdapters.queue_visit_recordTableAdapter queue_visit_recordTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
@@ -843,5 +838,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }
