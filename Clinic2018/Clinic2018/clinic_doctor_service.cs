@@ -16,5 +16,11 @@ namespace Clinic2018
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clinic_appointment app = new clinic_appointment();
+            app.Show();
+        }
     }
 }
