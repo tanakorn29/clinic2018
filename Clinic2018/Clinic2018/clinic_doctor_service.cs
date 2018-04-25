@@ -22,5 +22,12 @@ namespace Clinic2018
             clinic_appointment app = new clinic_appointment();
             app.Show();
         }
+
+        private void clinic_doctor_service_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'dataSet3.queue_visit_record' table. You can move, or remove it, as needed.
+            this.queue_visit_recordTableAdapter.Fill(this.dataSet3.queue_visit_record);
+
+        }
     }
 }

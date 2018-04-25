@@ -203,6 +203,16 @@ namespace Clinic2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap printer_with_printed_paper_icon_icons_com_56230 {
+            get {
+                object obj = ResourceManager.GetObject("printer-with-printed-paper_icon-icons.com_56230", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap search_icon_7 {
             get {
                 object obj = ResourceManager.GetObject("search-icon-7", resourceCulture);

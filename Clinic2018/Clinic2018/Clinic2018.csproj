@@ -173,6 +173,18 @@
     <Compile Include="clinic_main_sub.Designer.cs">
       <DependentUpon>clinic_main_sub.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinic_pharmacist_order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_pharmacist_order.Designer.cs">
+      <DependentUpon>clinic_pharmacist_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clinic_pharmacist_service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_pharmacist_service.Designer.cs">
+      <DependentUpon>clinic_pharmacist_service.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_notification.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +224,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="MyTabPage.cs">
       <SubType>Component</SubType>
@@ -286,6 +303,12 @@
     <EmbeddedResource Include="clinic_main_sub.resx">
       <DependentUpon>clinic_main_sub.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="clinic_pharmacist_order.resx">
+      <DependentUpon>clinic_pharmacist_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_pharmacist_service.resx">
+      <DependentUpon>clinic_pharmacist_service.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clinic_notification.resx">
       <DependentUpon>clinic_notification.cs</DependentUpon>
     </EmbeddedResource>
@@ -354,6 +377,17 @@
     <None Include="DataSet2.xss">
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -420,6 +454,7 @@
     <None Include="Resources\search-icon-71.png" />
     <None Include="Resources\nurse-icon.png" />
     <None Include="Resources\DrB_welcome-2-e1498564511141.png" />
+    <None Include="Resources\printer-with-printed-paper_icon-icons.com_56230.png" />
     <Content Include="ความคืบหน้าของโปรแกรม.txt" />
     <Content Include="โค๊ดที่ต้องใช้.txt" />
   </ItemGroup>

@@ -28,18 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.clm1_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clm1_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clm1_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clm1_4 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.lb4_1 = new System.Windows.Forms.Label();
             this.tb4_1 = new System.Windows.Forms.TextBox();
             this.bt4_2 = new System.Windows.Forms.Button();
             this.bt4_3 = new System.Windows.Forms.Button();
             this.bt4_1 = new System.Windows.Forms.Button();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.clm2_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clm2_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clm2_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clm2_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.bt4_4 = new System.Windows.Forms.Button();
             this.lb3_6 = new System.Windows.Forms.Label();
             this.lb3_4 = new System.Windows.Forms.Label();
             this.lb3_2 = new System.Windows.Forms.Label();
@@ -123,20 +133,20 @@
             this.clm1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clm2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clm3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clm1_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clm1_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clm1_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clm1_4 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.bt4_4 = new System.Windows.Forms.Button();
+            this.dataSet3 = new Clinic2018.DataSet3();
+            this.queuevisitrecordBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.queue_visit_recordTableAdapter = new Clinic2018.DataSet3TableAdapters.queue_visit_recordTableAdapter();
             this.panel1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.queuevisitrecordBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -146,7 +156,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(969, 749);
+            this.panel1.Size = new System.Drawing.Size(991, 696);
             this.panel1.TabIndex = 0;
             // 
             // groupBox3
@@ -169,7 +179,7 @@
             this.groupBox3.Controls.Add(this.lb1_11);
             this.groupBox3.Location = new System.Drawing.Point(12, 124);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(950, 613);
+            this.groupBox3.Size = new System.Drawing.Size(967, 566);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ข้อมูลคนไข้";
@@ -204,7 +214,7 @@
             this.groupBox2.Controls.Add(this.lb3_12);
             this.groupBox2.Location = new System.Drawing.Point(6, 253);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(944, 354);
+            this.groupBox2.Size = new System.Drawing.Size(955, 310);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ข้อมูลการรักษาแพทย์";
@@ -220,18 +230,10 @@
             this.groupBox5.Controls.Add(this.dataGridView3);
             this.groupBox5.Location = new System.Drawing.Point(283, 40);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(661, 314);
+            this.groupBox5.Size = new System.Drawing.Size(666, 261);
             this.groupBox5.TabIndex = 7;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "จ่ายยา";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(7, 158);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(598, 103);
-            this.dataGridView3.TabIndex = 0;
             // 
             // dataGridView2
             // 
@@ -245,6 +247,31 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(598, 103);
             this.dataGridView2.TabIndex = 0;
+            // 
+            // clm1_1
+            // 
+            this.clm1_1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clm1_1.HeaderText = "รหัสยา";
+            this.clm1_1.Name = "clm1_1";
+            // 
+            // clm1_2
+            // 
+            this.clm1_2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clm1_2.HeaderText = "ชื่อไทย";
+            this.clm1_2.Name = "clm1_2";
+            // 
+            // clm1_3
+            // 
+            this.clm1_3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clm1_3.HeaderText = "ชื่ออังกฤษ";
+            this.clm1_3.Name = "clm1_3";
+            // 
+            // clm1_4
+            // 
+            this.clm1_4.HeaderText = "จำนวน";
+            this.clm1_4.Name = "clm1_4";
+            this.clm1_4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.clm1_4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // lb4_1
             // 
@@ -287,23 +314,72 @@
             // bt4_1
             // 
             this.bt4_1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bt4_1.Location = new System.Drawing.Point(506, 267);
+            this.bt4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bt4_1.Location = new System.Drawing.Point(610, 238);
             this.bt4_1.Name = "bt4_1";
-            this.bt4_1.Size = new System.Drawing.Size(99, 31);
+            this.bt4_1.Size = new System.Drawing.Size(51, 23);
             this.bt4_1.TabIndex = 0;
             this.bt4_1.Text = "จ่ายยา";
             this.bt4_1.UseVisualStyleBackColor = true;
             // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.clm2_1,
+            this.clm2_2,
+            this.clm2_3,
+            this.clm2_4});
+            this.dataGridView3.Location = new System.Drawing.Point(7, 158);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(598, 103);
+            this.dataGridView3.TabIndex = 0;
+            // 
+            // clm2_1
+            // 
+            this.clm2_1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clm2_1.HeaderText = "รหัสยา";
+            this.clm2_1.Name = "clm2_1";
+            // 
+            // clm2_2
+            // 
+            this.clm2_2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clm2_2.HeaderText = "ชื่อไทย";
+            this.clm2_2.Name = "clm2_2";
+            // 
+            // clm2_3
+            // 
+            this.clm2_3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clm2_3.HeaderText = "ชื่ออังกฤษ";
+            this.clm2_3.Name = "clm2_3";
+            // 
+            // clm2_4
+            // 
+            this.clm2_4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clm2_4.HeaderText = "จำนวน";
+            this.clm2_4.Name = "clm2_4";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.bt4_4);
-            this.groupBox1.Location = new System.Drawing.Point(16, 233);
+            this.groupBox1.Location = new System.Drawing.Point(16, 217);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(242, 84);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "นัดรักษา";
+            // 
+            // bt4_4
+            // 
+            this.bt4_4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt4_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bt4_4.Location = new System.Drawing.Point(63, 31);
+            this.bt4_4.Name = "bt4_4";
+            this.bt4_4.Size = new System.Drawing.Size(99, 31);
+            this.bt4_4.TabIndex = 0;
+            this.bt4_4.Text = "นัดพบแพทย์";
+            this.bt4_4.UseVisualStyleBackColor = true;
+            this.bt4_4.Click += new System.EventHandler(this.button1_Click);
             // 
             // lb3_6
             // 
@@ -565,7 +641,7 @@
             this.groupBox4.Controls.Add(this.bt2_111);
             this.groupBox4.Location = new System.Drawing.Point(6, 67);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(938, 180);
+            this.groupBox4.Size = new System.Drawing.Size(955, 180);
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "สุขภาพ";
@@ -1067,7 +1143,7 @@
             this.clm3});
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(950, 106);
+            this.dataGridView1.Size = new System.Drawing.Size(967, 106);
             this.dataGridView1.TabIndex = 0;
             // 
             // clm1
@@ -1088,53 +1164,31 @@
             this.clm3.HeaderText = "เวลา";
             this.clm3.Name = "clm3";
             // 
-            // clm1_1
+            // dataSet3
             // 
-            this.clm1_1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clm1_1.HeaderText = "รหัสยา";
-            this.clm1_1.Name = "clm1_1";
+            this.dataSet3.DataSetName = "DataSet3";
+            this.dataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // clm1_2
+            // queuevisitrecordBindingSource
             // 
-            this.clm1_2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clm1_2.HeaderText = "ชื่อไทย";
-            this.clm1_2.Name = "clm1_2";
+            this.queuevisitrecordBindingSource.DataMember = "queue_visit_record";
+            this.queuevisitrecordBindingSource.DataSource = this.dataSet3;
             // 
-            // clm1_3
+            // queue_visit_recordTableAdapter
             // 
-            this.clm1_3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clm1_3.HeaderText = "ชื่ออังกฤษ";
-            this.clm1_3.Name = "clm1_3";
-            // 
-            // clm1_4
-            // 
-            this.clm1_4.HeaderText = "จำนวน";
-            this.clm1_4.Name = "clm1_4";
-            this.clm1_4.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.clm1_4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // bt4_4
-            // 
-            this.bt4_4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bt4_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bt4_4.Location = new System.Drawing.Point(63, 31);
-            this.bt4_4.Name = "bt4_4";
-            this.bt4_4.Size = new System.Drawing.Size(99, 31);
-            this.bt4_4.TabIndex = 0;
-            this.bt4_4.Text = "นัดพบแพทย์";
-            this.bt4_4.UseVisualStyleBackColor = true;
-            this.bt4_4.Click += new System.EventHandler(this.button1_Click);
+            this.queue_visit_recordTableAdapter.ClearBeforeFill = true;
             // 
             // clinic_doctor_service
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 749);
+            this.ClientSize = new System.Drawing.Size(991, 696);
             this.Controls.Add(this.panel1);
             this.Name = "clinic_doctor_service";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ข้อมูลการรักษา(แพทย์) - ระบบบริหารจัดการงานบริการงานแพทย์และอนามัย ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.clinic_doctor_service_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -1142,12 +1196,14 @@
             this.groupBox2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.queuevisitrecordBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1254,5 +1310,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clm1_3;
         private System.Windows.Forms.DataGridViewComboBoxColumn clm1_4;
         private System.Windows.Forms.Button bt4_4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clm2_1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clm2_2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clm2_3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clm2_4;
+        private DataSet3 dataSet3;
+        private System.Windows.Forms.BindingSource queuevisitrecordBindingSource;
+        private DataSet3TableAdapters.queue_visit_recordTableAdapter queue_visit_recordTableAdapter;
     }
 }
