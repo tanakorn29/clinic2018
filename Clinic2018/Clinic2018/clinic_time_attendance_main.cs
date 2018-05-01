@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Clinic2018
 {
-    public partial class clinic_222 : Form
+    public partial class clinic_time_attendance_main : Form
     {
-        public clinic_222()
+        public clinic_time_attendance_main()
         {
             InitializeComponent();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

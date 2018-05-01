@@ -18,7 +18,7 @@ namespace Clinic2018
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new clinic_111());
+            Application.Run(new clinic_time_attendance());
             //Application.Run(new clinc_nurse_service());
             //Application.Run(new clinic_search());
             //Application.Run(new clinic_calendar());
