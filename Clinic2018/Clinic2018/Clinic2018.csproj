@@ -101,6 +101,18 @@
     <Compile Include="clinc_nurse_service.Designer.cs">
       <DependentUpon>clinc_nurse_service.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinic_111.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_111.Designer.cs">
+      <DependentUpon>clinic_111.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clinic_222.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_222.Designer.cs">
+      <DependentUpon>clinic_222.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_appointment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -266,6 +278,12 @@
     </Compile>
     <EmbeddedResource Include="clinc_nurse_service.resx">
       <DependentUpon>clinc_nurse_service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_111.resx">
+      <DependentUpon>clinic_111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_222.resx">
+      <DependentUpon>clinic_222.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_appointment.resx">
       <DependentUpon>clinic_appointment.cs</DependentUpon>
