@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Clinic2018
 {
-    public partial class clinic_time_attendance_main : Form
+    public partial class clinic_time_attendance_welcome : Form
     {
-        public clinic_time_attendance_main()
+        public clinic_time_attendance_welcome()
         {
             InitializeComponent();
         }

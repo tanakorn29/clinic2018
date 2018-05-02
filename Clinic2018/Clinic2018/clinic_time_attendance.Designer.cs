@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb1 = new System.Windows.Forms.TextBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,17 +54,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "00:00:00";
             // 
-            // textBox1
+            // tb1
             // 
-            this.textBox1.Location = new System.Drawing.Point(248, 131);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 20);
-            this.textBox1.TabIndex = 2;
+            this.tb1.Location = new System.Drawing.Point(304, 131);
+            this.tb1.Name = "tb1";
+            this.tb1.Size = new System.Drawing.Size(180, 20);
+            this.tb1.TabIndex = 2;
+            this.tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tb1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(434, 131);
+            this.radioButton1.Location = new System.Drawing.Point(490, 131);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(59, 17);
             this.radioButton1.TabIndex = 3;
@@ -75,7 +77,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(499, 131);
+            this.radioButton2.Location = new System.Drawing.Point(555, 131);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(62, 17);
             this.radioButton2.TabIndex = 3;
@@ -87,11 +89,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label2.Location = new System.Drawing.Point(359, 82);
+            this.label2.Location = new System.Drawing.Point(276, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 31);
+            this.label2.Size = new System.Drawing.Size(160, 31);
             this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
+            this.label2.Text = "dd/MM/yyyy";
             // 
             // dataGridView1
             // 
@@ -146,7 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tb1);
             this.Controls.Add(this.label1);
             this.Name = "clinic_time_attendance";
             this.Text = "clinic_time_attendance";
@@ -161,7 +163,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Label label2;
