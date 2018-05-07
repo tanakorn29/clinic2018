@@ -185,6 +185,12 @@
     <Compile Include="clinic_main_sub.Designer.cs">
       <DependentUpon>clinic_main_sub.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinic_medicine_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_medicine_main.Designer.cs">
+      <DependentUpon>clinic_medicine_main.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_pharmacist_order.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -272,7 +278,6 @@
     <Compile Include="Show_text.Designer.cs">
       <DependentUpon>Show_text.cs</DependentUpon>
     </Compile>
-    <Compile Include="SimpleDateFormat.cs" />
     <Compile Include="System\Data\Odbc\SqlDataAdapter.cs" />
     <Compile Include="textBox1\Text.cs" />
     <Compile Include="UserControl1.cs">
@@ -334,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_main_sub.resx">
       <DependentUpon>clinic_main_sub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_medicine_main.resx">
+      <DependentUpon>clinic_medicine_main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_pharmacist_order.resx">
       <DependentUpon>clinic_pharmacist_order.cs</DependentUpon>
@@ -493,6 +501,31 @@
     <None Include="Resources\nurse-icon.png" />
     <None Include="Resources\DrB_welcome-2-e1498564511141.png" />
     <None Include="Resources\printer-with-printed-paper_icon-icons.com_56230.png" />
+    <None Include="Resources\order.png" />
+    <None Include="Resources\order1.png" />
+    <None Include="Resources\folder-documents-icon2.png" />
+    <None Include="Resources\ic_documents1.png" />
+    <None Include="Resources\ic_power.png" />
+    <None Include="Resources\ic_archive.png" />
+    <None Include="Resources\ic_pin.png" />
+    <None Include="Resources\ic_users.png" />
+    <None Include="Resources\ic_target.png" />
+    <None Include="Resources\ic_settings.png" />
+    <None Include="Resources\31580984884cdc8.jpg" />
+    <None Include="Resources\ic_up_circle.png" />
+    <None Include="Resources\ic_text_document1.png" />
+    <None Include="Resources\ic_tag.png" />
+    <None Include="Resources\ic_bookmark.png" />
+    <None Include="Resources\ic_target1.png" />
+    <None Include="Resources\ic_right_circle.png" />
+    <None Include="Resources\ic_zoom1.png" />
+    <None Include="Resources\ic_plus.png" />
+    <None Include="Resources\ic_edit.png" />
+    <None Include="Resources\ic_list.png" />
+    <None Include="Resources\ic_zoom2.png" />
+    <None Include="Resources\ic_plus1.png" />
+    <None Include="Resources\ic_cancel2.png" />
+    <None Include="Resources\ic_cancel3.png" />
     <Content Include="ความคืบหน้าของโปรแกรม.txt" />
     <Content Include="โค๊ดที่ต้องใช้.txt" />
   </ItemGroup>

@@ -29,13 +29,15 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lb1 = new System.Windows.Forms.Label();
             this.lb2 = new System.Windows.Forms.Label();
+            this.lb1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.lb2);
             this.panel1.Controls.Add(this.lb1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -44,6 +46,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(659, 412);
             this.panel1.TabIndex = 0;
+            // 
+            // lb2
+            // 
+            this.lb2.AutoSize = true;
+            this.lb2.Location = new System.Drawing.Point(169, 149);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(41, 25);
+            this.lb2.TabIndex = 0;
+            this.lb2.Text = "lb2";
             // 
             // lb1
             // 
@@ -54,14 +65,12 @@
             this.lb1.TabIndex = 0;
             this.lb1.Text = "lb1";
             // 
-            // lb2
+            // textBox1
             // 
-            this.lb2.AutoSize = true;
-            this.lb2.Location = new System.Drawing.Point(169, 149);
-            this.lb2.Name = "lb2";
-            this.lb2.Size = new System.Drawing.Size(41, 25);
-            this.lb2.TabIndex = 0;
-            this.lb2.Text = "lb2";
+            this.textBox1.Location = new System.Drawing.Point(337, 257);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 31);
+            this.textBox1.TabIndex = 1;
             // 
             // clinic_time_attendance_welcome
             // 
@@ -82,5 +91,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lb2;
         private System.Windows.Forms.Label lb1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

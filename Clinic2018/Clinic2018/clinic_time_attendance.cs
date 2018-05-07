@@ -81,18 +81,47 @@ namespace Clinic2018
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-            string query = ("");
+            /*string query = ("select emp_ru_name from employee_ru where emp_ru_idcard = '"+tb1.Text+"'");
             cmd = new SqlCommand(query, conn);
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
-            sda.Fill(dt);
+            sda.Fill(dt);*/
 
-            //string query = ("insert into time_attendance(time_att_timein, time_att_timeout, time_att_date, time_att_note, emp_ru_idcard) values('', SYSDATETIME(), SYSDATETIME(), SYSDATETIME(), '', '') where emp_ru_idcard = '" + tb1.Text + "' ");
+            //clinic_time_attendance_welcome ctaw = new clinic_time_attendance_welcome;
+            //ctaw.Show();
+                
 
             /*กรอก ปชช โชว์ message box
             ยินดีต้อนรับ: ชื่อ สกุล
             เข้าเวลา: ใส่เวลา
             กำหนดเวลา 5วิ หน้าต่างหาย พร้อมบันทึกข้อมูล*/
+
+        }
+
+        private void bt1_Click(object sender, EventArgs e)
+        {
+            string query = ("select emp_ru_name from employee_ru where emp_ru_idcard = '"+tb1.Text+"'");
+            cmd = new SqlCommand(query, conn);
+            sda = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            sda.Fill(dt);
+
+            string rdio = "";
+
+            if(radioButton1.Checked)
+            {
+                //MessageBox.Show("คุณ "+radioButton1+"แล้วจ้า");
+
+                //rdio = radioButton1.Text;
+                //query(emp_ru_idcard)/.ToString();
+
+            }
+            if (radioButton2.Checked)
+            {
+
+            }
+            MessageBox.Show(rdio, query);
+
 
         }
     }

@@ -41,6 +41,7 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bt1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,6 +63,7 @@
             this.tb1.TabIndex = 2;
             this.tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.tb1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+
             // 
             // radioButton1
             // 
@@ -89,7 +91,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label2.Location = new System.Drawing.Point(276, 82);
+            this.label2.Location = new System.Drawing.Point(238, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 31);
             this.label2.TabIndex = 4;
@@ -139,11 +141,23 @@
             this.Column5.HeaderText = "หมายเหตุ";
             this.Column5.Name = "Column5";
             // 
+            // bt1
+            // 
+            this.bt1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bt1.Location = new System.Drawing.Point(209, 128);
+            this.bt1.Name = "bt1";
+            this.bt1.Size = new System.Drawing.Size(75, 23);
+            this.bt1.TabIndex = 6;
+            this.bt1.Text = "บันทึก";
+            this.bt1.UseVisualStyleBackColor = true;
+            this.bt1.Click += new System.EventHandler(this.bt1_Click);
+            // 
             // clinic_time_attendance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(825, 434);
+            this.Controls.Add(this.bt1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.radioButton2);
@@ -173,5 +187,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Button bt1;
     }
 }

@@ -118,56 +118,122 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ic_text_document1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_text_document1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ic_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_archive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_archive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\order.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_grid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_grid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_zoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_zoom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_zoom2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DrB_welcome-2-e1498564511141" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DrB_welcome-2-e1498564511141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_target" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_target.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic_cancel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_cancel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search-icon-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search-icon-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic_text_document" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_text_document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo_Heart_Care" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_Heart_Care.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="printer-with-printed-paper_icon-icons.com_56230" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer-with-printed-paper_icon-icons.com_56230.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="x-01-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x-01-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nurse-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nurse-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="มหาวิทยาลัยรามคำแหง_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\มหาวิทยาลัยรามคำแหง_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_power.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="folder-documents-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder-documents-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="order1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\order1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_documents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_zoom1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_zoom1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Heart_Care" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Heart_Care.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrB_welcome-2-e1498564511141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrB_welcome-2-e1498564511141.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_users.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search-icon-71" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search-icon-71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="มหาวิทยาลัยรามคำแหง_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\มหาวิทยาลัยรามคำแหง_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="folder-documents-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder-documents-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder-documents-icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-documents-icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31580984884cdc8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31580984884cdc8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-icon-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icon-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder-documents-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder-documents-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_up_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_up_circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_cancel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_cancel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_zoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_bookmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_plus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_plus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_tag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_tag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_cancel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_cancel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_documents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_documents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_documents1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_documents1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_pin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_pin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_target1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_target1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="24068730_1602140229809333_8581241208102830372_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\24068730_1602140229809333_8581241208102830372_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,7 +241,16 @@
   <data name="มหาวิทยาลัยรามคำแหง_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\มหาวิทยาลัยรามคำแหง_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="printer-with-printed-paper_icon-icons.com_56230" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\printer-with-printed-paper_icon-icons.com_56230.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_right_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_right_circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nurse-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nurse-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_text_document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_text_document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_cancel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_cancel3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
