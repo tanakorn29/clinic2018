@@ -31,10 +31,50 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.คนหายาToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.เพมรายการยาToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.p11 = new System.Windows.Forms.Panel();
+            this.p55 = new System.Windows.Forms.Panel();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton15 = new System.Windows.Forms.RadioButton();
+            this.radioButton16 = new System.Windows.Forms.RadioButton();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.radioButton17 = new System.Windows.Forms.RadioButton();
+            this.radioButton18 = new System.Windows.Forms.RadioButton();
+            this.radioButton19 = new System.Windows.Forms.RadioButton();
+            this.radioButton20 = new System.Windows.Forms.RadioButton();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.radioButton21 = new System.Windows.Forms.RadioButton();
+            this.radioButton22 = new System.Windows.Forms.RadioButton();
+            this.radioButton23 = new System.Windows.Forms.RadioButton();
+            this.radioButton24 = new System.Windows.Forms.RadioButton();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.p44 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -111,17 +151,54 @@
             this.cl2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cl3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            this.p55 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.p1 = new System.Windows.Forms.ToolStripLabel();
             this.p2 = new System.Windows.Forms.ToolStripLabel();
             this.p3 = new System.Windows.Forms.ToolStripLabel();
             this.p4 = new System.Windows.Forms.ToolStripDropDownButton();
             this.p5 = new System.Windows.Forms.ToolStripMenuItem();
             this.p6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.คนหายาToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.เพมรายการยาToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button6 = new System.Windows.Forms.Button();
+            this.p66 = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             this.p11.SuspendLayout();
+            this.p55.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
             this.p44.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -132,7 +209,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.p22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.p55.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.p66.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.groupBox13.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -167,49 +249,466 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "dd/MM/yyyy";
             // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.p1,
-            this.p2,
-            this.p3,
-            this.p4});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(1016, 50);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // คนหายาToolStripMenuItem
-            // 
-            this.คนหายาToolStripMenuItem.Name = "คนหายาToolStripMenuItem";
-            this.คนหายาToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.คนหายาToolStripMenuItem.Text = "ค้นหายา";
-            // 
-            // เพมรายการยาToolStripMenuItem
-            // 
-            this.เพมรายการยาToolStripMenuItem.Name = "เพมรายการยาToolStripMenuItem";
-            this.เพมรายการยาToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.เพมรายการยาToolStripMenuItem.Text = "เพิ่มรายการยา";
-            // 
             // p11
             // 
             this.p11.BackgroundImage = global::Clinic2018.Properties.Resources._31580984884cdc8;
             this.p11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.p11.Controls.Add(this.p44);
-            this.p11.Controls.Add(this.p33);
+            this.p11.Controls.Add(this.p66);
             this.p11.Controls.Add(this.p22);
             this.p11.Controls.Add(this.p55);
+            this.p11.Controls.Add(this.p44);
+            this.p11.Controls.Add(this.p33);
             this.p11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.p11.Location = new System.Drawing.Point(0, 50);
             this.p11.Name = "p11";
             this.p11.Size = new System.Drawing.Size(1016, 486);
             this.p11.TabIndex = 1;
             // 
+            // p55
+            // 
+            this.p55.BackColor = System.Drawing.SystemColors.Control;
+            this.p55.Controls.Add(this.groupBox6);
+            this.p55.Controls.Add(this.label6);
+            this.p55.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.p55.Location = new System.Drawing.Point(0, 0);
+            this.p55.Name = "p55";
+            this.p55.Size = new System.Drawing.Size(1016, 486);
+            this.p55.TabIndex = 0;
+            this.p55.Visible = false;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.button4);
+            this.groupBox6.Controls.Add(this.button5);
+            this.groupBox6.Controls.Add(this.groupBox7);
+            this.groupBox6.Controls.Add(this.textBox13);
+            this.groupBox6.Controls.Add(this.textBox14);
+            this.groupBox6.Controls.Add(this.textBox15);
+            this.groupBox6.Controls.Add(this.textBox16);
+            this.groupBox6.Controls.Add(this.textBox17);
+            this.groupBox6.Controls.Add(this.textBox18);
+            this.groupBox6.Controls.Add(this.textBox19);
+            this.groupBox6.Controls.Add(this.textBox20);
+            this.groupBox6.Controls.Add(this.textBox21);
+            this.groupBox6.Controls.Add(this.textBox22);
+            this.groupBox6.Controls.Add(this.textBox23);
+            this.groupBox6.Controls.Add(this.label23);
+            this.groupBox6.Controls.Add(this.label24);
+            this.groupBox6.Controls.Add(this.label25);
+            this.groupBox6.Controls.Add(this.label26);
+            this.groupBox6.Controls.Add(this.label27);
+            this.groupBox6.Controls.Add(this.label28);
+            this.groupBox6.Controls.Add(this.label29);
+            this.groupBox6.Controls.Add(this.label30);
+            this.groupBox6.Controls.Add(this.label31);
+            this.groupBox6.Controls.Add(this.label32);
+            this.groupBox6.Controls.Add(this.label33);
+            this.groupBox6.Controls.Add(this.label34);
+            this.groupBox6.ForeColor = System.Drawing.Color.Black;
+            this.groupBox6.Location = new System.Drawing.Point(13, 17);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(991, 452);
+            this.groupBox6.TabIndex = 2;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "รายละเอียดผลิตภัณฑ์ยา";
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button4.Image = global::Clinic2018.Properties.Resources.ic_cancel3;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(270, 388);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(102, 44);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "ยกเลิก";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button5.Image = global::Clinic2018.Properties.Resources.ic_edit;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(159, 388);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(102, 44);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "แก้ไข";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.BackColor = System.Drawing.Color.LightGray;
+            this.groupBox7.Controls.Add(this.groupBox8);
+            this.groupBox7.Controls.Add(this.groupBox9);
+            this.groupBox7.Controls.Add(this.groupBox10);
+            this.groupBox7.Location = new System.Drawing.Point(531, 22);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(433, 412);
+            this.groupBox7.TabIndex = 2;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "วิธีใช้";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.radioButton11);
+            this.groupBox8.Controls.Add(this.radioButton15);
+            this.groupBox8.Controls.Add(this.radioButton16);
+            this.groupBox8.Location = new System.Drawing.Point(16, 291);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(184, 112);
+            this.groupBox8.TabIndex = 0;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "วิธีเก็บ";
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(6, 57);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(154, 17);
+            this.radioButton11.TabIndex = 0;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "เก็บในตู้เย็น (Refrigeration)";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton15
+            // 
+            this.radioButton15.AutoSize = true;
+            this.radioButton15.Location = new System.Drawing.Point(6, 37);
+            this.radioButton15.Name = "radioButton15";
+            this.radioButton15.Size = new System.Drawing.Size(164, 17);
+            this.radioButton15.TabIndex = 0;
+            this.radioButton15.TabStop = true;
+            this.radioButton15.Text = "เก็บที่อุณภูมิห้อง (Room temp.)";
+            this.radioButton15.UseVisualStyleBackColor = true;
+            // 
+            // radioButton16
+            // 
+            this.radioButton16.AutoSize = true;
+            this.radioButton16.Location = new System.Drawing.Point(6, 17);
+            this.radioButton16.Name = "radioButton16";
+            this.radioButton16.Size = new System.Drawing.Size(107, 17);
+            this.radioButton16.TabIndex = 0;
+            this.radioButton16.TabStop = true;
+            this.radioButton16.Text = "ไม่กำหนด (None)";
+            this.radioButton16.UseVisualStyleBackColor = true;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.radioButton17);
+            this.groupBox9.Controls.Add(this.radioButton18);
+            this.groupBox9.Controls.Add(this.radioButton19);
+            this.groupBox9.Controls.Add(this.radioButton20);
+            this.groupBox9.Location = new System.Drawing.Point(16, 149);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(184, 112);
+            this.groupBox9.TabIndex = 0;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "ช่วงเวลา";
+            // 
+            // radioButton17
+            // 
+            this.radioButton17.AutoSize = true;
+            this.radioButton17.Location = new System.Drawing.Point(6, 77);
+            this.radioButton17.Name = "radioButton17";
+            this.radioButton17.Size = new System.Drawing.Size(122, 17);
+            this.radioButton17.TabIndex = 0;
+            this.radioButton17.TabStop = true;
+            this.radioButton17.Text = "ก่อนนอน (Bed Time)";
+            this.radioButton17.UseVisualStyleBackColor = true;
+            // 
+            // radioButton18
+            // 
+            this.radioButton18.AutoSize = true;
+            this.radioButton18.Location = new System.Drawing.Point(6, 57);
+            this.radioButton18.Name = "radioButton18";
+            this.radioButton18.Size = new System.Drawing.Size(85, 17);
+            this.radioButton18.TabIndex = 0;
+            this.radioButton18.TabStop = true;
+            this.radioButton18.Text = "เย็น (Dinner)";
+            this.radioButton18.UseVisualStyleBackColor = true;
+            // 
+            // radioButton19
+            // 
+            this.radioButton19.AutoSize = true;
+            this.radioButton19.Location = new System.Drawing.Point(6, 37);
+            this.radioButton19.Name = "radioButton19";
+            this.radioButton19.Size = new System.Drawing.Size(101, 17);
+            this.radioButton19.TabIndex = 0;
+            this.radioButton19.TabStop = true;
+            this.radioButton19.Text = "กลางวัน (Lunch)";
+            this.radioButton19.UseVisualStyleBackColor = true;
+            // 
+            // radioButton20
+            // 
+            this.radioButton20.AutoSize = true;
+            this.radioButton20.Location = new System.Drawing.Point(6, 17);
+            this.radioButton20.Name = "radioButton20";
+            this.radioButton20.Size = new System.Drawing.Size(96, 17);
+            this.radioButton20.TabIndex = 0;
+            this.radioButton20.TabStop = true;
+            this.radioButton20.Text = "เช้า (Breakfast)";
+            this.radioButton20.UseVisualStyleBackColor = true;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.radioButton21);
+            this.groupBox10.Controls.Add(this.radioButton22);
+            this.groupBox10.Controls.Add(this.radioButton23);
+            this.groupBox10.Controls.Add(this.radioButton24);
+            this.groupBox10.Location = new System.Drawing.Point(16, 19);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(184, 112);
+            this.groupBox10.TabIndex = 0;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "เวลาที่ใช้";
+            // 
+            // radioButton21
+            // 
+            this.radioButton21.AutoSize = true;
+            this.radioButton21.Location = new System.Drawing.Point(6, 77);
+            this.radioButton21.Name = "radioButton21";
+            this.radioButton21.Size = new System.Drawing.Size(128, 17);
+            this.radioButton21.TabIndex = 0;
+            this.radioButton21.TabStop = true;
+            this.radioButton21.Text = "หลังอาหาร (After meal)";
+            this.radioButton21.UseVisualStyleBackColor = true;
+            // 
+            // radioButton22
+            // 
+            this.radioButton22.AutoSize = true;
+            this.radioButton22.Location = new System.Drawing.Point(6, 57);
+            this.radioButton22.Name = "radioButton22";
+            this.radioButton22.Size = new System.Drawing.Size(137, 17);
+            this.radioButton22.TabIndex = 0;
+            this.radioButton22.TabStop = true;
+            this.radioButton22.Text = "พร้อมอาหาร (With meal)";
+            this.radioButton22.UseVisualStyleBackColor = true;
+            // 
+            // radioButton23
+            // 
+            this.radioButton23.AutoSize = true;
+            this.radioButton23.Location = new System.Drawing.Point(6, 37);
+            this.radioButton23.Name = "radioButton23";
+            this.radioButton23.Size = new System.Drawing.Size(140, 17);
+            this.radioButton23.TabIndex = 0;
+            this.radioButton23.TabStop = true;
+            this.radioButton23.Text = "ก่อนอาหาร (Before meal)";
+            this.radioButton23.UseVisualStyleBackColor = true;
+            // 
+            // radioButton24
+            // 
+            this.radioButton24.AutoSize = true;
+            this.radioButton24.Location = new System.Drawing.Point(6, 17);
+            this.radioButton24.Name = "radioButton24";
+            this.radioButton24.Size = new System.Drawing.Size(107, 17);
+            this.radioButton24.TabIndex = 0;
+            this.radioButton24.TabStop = true;
+            this.radioButton24.Text = "ไม่กำหนด (None)";
+            this.radioButton24.UseVisualStyleBackColor = true;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(117, 121);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(401, 52);
+            this.textBox13.TabIndex = 1;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(117, 290);
+            this.textBox14.Multiline = true;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(159, 80);
+            this.textBox14.TabIndex = 1;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(117, 267);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(159, 20);
+            this.textBox15.TabIndex = 1;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(117, 244);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(159, 20);
+            this.textBox16.TabIndex = 1;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(117, 221);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(159, 20);
+            this.textBox17.TabIndex = 1;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(117, 198);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(159, 20);
+            this.textBox18.TabIndex = 1;
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(117, 175);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(159, 20);
+            this.textBox19.TabIndex = 1;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(117, 98);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(401, 20);
+            this.textBox20.TabIndex = 1;
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(117, 75);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(401, 20);
+            this.textBox21.TabIndex = 1;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(117, 49);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(401, 20);
+            this.textBox22.TabIndex = 1;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Location = new System.Drawing.Point(117, 25);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(401, 20);
+            this.textBox23.TabIndex = 1;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(70, 313);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(41, 13);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "label11";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(38, 224);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(73, 13);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "จำนวนทั้งหมด";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(29, 98);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(82, 13);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "หมวดหมู่ชนิดยา";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(51, 293);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(60, 13);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "ผลข้างเคียง";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(63, 201);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(48, 13);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "ราคาขาย";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(52, 75);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(59, 13);
+            this.label28.TabIndex = 0;
+            this.label28.Text = "ชื่อยาสามัญ";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(76, 270);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(35, 13);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "หน่วย";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(51, 178);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(60, 13);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "วันหมดอายุ";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(32, 52);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(79, 13);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "ชื่อยาทางการค้า";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(23, 247);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(88, 13);
+            this.label32.TabIndex = 0;
+            this.label32.Text = "จำนวนยาคงเหลือ";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(62, 121);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(49, 13);
+            this.label33.TabIndex = 0;
+            this.label33.Text = "สรรพคุณ";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(59, 29);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(52, 13);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "รหัสสินค้า";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(991, 3);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(13, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "4";
+            // 
             // p44
             // 
-            this.p44.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.p44.BackColor = System.Drawing.SystemColors.Control;
             this.p44.Controls.Add(this.groupBox1);
             this.p44.Controls.Add(this.label5);
             this.p44.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -662,7 +1161,7 @@
             // 
             // p33
             // 
-            this.p33.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.p33.BackColor = System.Drawing.SystemColors.Control;
             this.p33.Controls.Add(this.dataGridView2);
             this.p33.Controls.Add(this.button1);
             this.p33.Controls.Add(this.comboBox1);
@@ -869,7 +1368,8 @@
             // 
             // p22
             // 
-            this.p22.BackColor = System.Drawing.Color.Gainsboro;
+            this.p22.BackColor = System.Drawing.SystemColors.Control;
+            this.p22.Controls.Add(this.button6);
             this.p22.Controls.Add(this.label8);
             this.p22.Controls.Add(this.label7);
             this.p22.Controls.Add(this.dataGridView1);
@@ -940,25 +1440,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "1";
             // 
-            // p55
+            // toolStrip1
             // 
-            this.p55.BackColor = System.Drawing.Color.Blue;
-            this.p55.Controls.Add(this.label6);
-            this.p55.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.p55.Location = new System.Drawing.Point(0, 0);
-            this.p55.Name = "p55";
-            this.p55.Size = new System.Drawing.Size(1016, 486);
-            this.p55.TabIndex = 0;
-            this.p55.Visible = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(730, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(13, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "4";
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.p1,
+            this.p2,
+            this.p3,
+            this.p4});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.toolStrip1.Size = new System.Drawing.Size(1016, 50);
+            this.toolStrip1.TabIndex = 0;
+            this.toolStrip1.Text = "toolStrip1";
             // 
             // p1
             // 
@@ -1037,6 +1531,308 @@
             this.p6.Text = "แก้ไขรายการยา";
             this.p6.Click += new System.EventHandler(this.p6_Click);
             // 
+            // คนหายาToolStripMenuItem
+            // 
+            this.คนหายาToolStripMenuItem.Name = "คนหายาToolStripMenuItem";
+            this.คนหายาToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.คนหายาToolStripMenuItem.Text = "ค้นหายา";
+            // 
+            // เพมรายการยาToolStripMenuItem
+            // 
+            this.เพมรายการยาToolStripMenuItem.Name = "เพมรายการยาToolStripMenuItem";
+            this.เพมรายการยาToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.เพมรายการยาToolStripMenuItem.Text = "เพิ่มรายการยา";
+            // 
+            // button6
+            // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Location = new System.Drawing.Point(334, 13);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "ทดสอบ";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // p66
+            // 
+            this.p66.Controls.Add(this.groupBox13);
+            this.p66.Controls.Add(this.label51);
+            this.p66.Controls.Add(this.label49);
+            this.p66.Controls.Add(this.label47);
+            this.p66.Controls.Add(this.label45);
+            this.p66.Controls.Add(this.groupBox12);
+            this.p66.Controls.Add(this.label50);
+            this.p66.Controls.Add(this.label48);
+            this.p66.Controls.Add(this.label46);
+            this.p66.Controls.Add(this.label44);
+            this.p66.Controls.Add(this.groupBox11);
+            this.p66.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.p66.Location = new System.Drawing.Point(0, 0);
+            this.p66.Name = "p66";
+            this.p66.Size = new System.Drawing.Size(1016, 486);
+            this.p66.TabIndex = 1;
+            this.p66.Visible = false;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label36.Location = new System.Drawing.Point(969, 13);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(16, 16);
+            this.label36.TabIndex = 0;
+            this.label36.Text = "6";
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.label43);
+            this.groupBox11.Controls.Add(this.label39);
+            this.groupBox11.Controls.Add(this.label42);
+            this.groupBox11.Controls.Add(this.label38);
+            this.groupBox11.Controls.Add(this.label37);
+            this.groupBox11.Controls.Add(this.label41);
+            this.groupBox11.Controls.Add(this.label40);
+            this.groupBox11.Controls.Add(this.label35);
+            this.groupBox11.Controls.Add(this.label36);
+            this.groupBox11.Location = new System.Drawing.Point(12, 9);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(992, 82);
+            this.groupBox11.TabIndex = 1;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "ข้อมูลคนไข้";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(23, 24);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(42, 13);
+            this.label35.TabIndex = 1;
+            this.label35.Text = "ชื่อ-สกุล";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(38, 48);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(27, 13);
+            this.label37.TabIndex = 1;
+            this.label37.Text = "ที่อยู่";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(489, 25);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(37, 13);
+            this.label38.TabIndex = 1;
+            this.label38.Text = "แผนก";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(478, 48);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(48, 13);
+            this.label39.TabIndex = 1;
+            this.label39.Text = "โทรศัพท์";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(71, 24);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(10, 13);
+            this.label40.TabIndex = 1;
+            this.label40.Text = "-";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(70, 48);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(10, 13);
+            this.label41.TabIndex = 1;
+            this.label41.Text = "-";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(538, 28);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(10, 13);
+            this.label42.TabIndex = 1;
+            this.label42.Text = "-";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(538, 51);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(10, 13);
+            this.label43.TabIndex = 1;
+            this.label43.Text = "-";
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.dataGridView3);
+            this.groupBox12.Location = new System.Drawing.Point(13, 97);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(992, 244);
+            this.groupBox12.TabIndex = 1;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "รายละเอียด";
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column12,
+            this.Column13,
+            this.Column14,
+            this.Column15,
+            this.Column16,
+            this.Column17,
+            this.Column18});
+            this.dataGridView3.Location = new System.Drawing.Point(6, 20);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(980, 215);
+            this.dataGridView3.TabIndex = 0;
+            // 
+            // Column12
+            // 
+            this.Column12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column12.HeaderText = "รหัสสินค้า";
+            this.Column12.Name = "Column12";
+            // 
+            // Column13
+            // 
+            this.Column13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column13.HeaderText = "ชื่อสินค้า";
+            this.Column13.Name = "Column13";
+            // 
+            // Column14
+            // 
+            this.Column14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column14.HeaderText = "จำนวน";
+            this.Column14.Name = "Column14";
+            // 
+            // Column15
+            // 
+            this.Column15.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column15.HeaderText = "หน่วยนับ";
+            this.Column15.Name = "Column15";
+            // 
+            // Column16
+            // 
+            this.Column16.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column16.HeaderText = "หน่วยละ";
+            this.Column16.Name = "Column16";
+            // 
+            // Column17
+            // 
+            this.Column17.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column17.HeaderText = "ส่วนลด/หน่วย";
+            this.Column17.Name = "Column17";
+            // 
+            // Column18
+            // 
+            this.Column18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column18.HeaderText = "จำนวนเงิน";
+            this.Column18.Name = "Column18";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(774, 367);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(44, 13);
+            this.label44.TabIndex = 1;
+            this.label44.Text = "รวมเงิน";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(856, 371);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(10, 13);
+            this.label45.TabIndex = 1;
+            this.label45.Text = "-";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(749, 393);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(69, 13);
+            this.label46.TabIndex = 1;
+            this.label46.Text = "ส่วนลดพิเศษ";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(856, 397);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(10, 13);
+            this.label47.TabIndex = 1;
+            this.label47.Text = "-";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(791, 419);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(27, 13);
+            this.label48.TabIndex = 1;
+            this.label48.Text = "ภาษี";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(856, 423);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(10, 13);
+            this.label49.TabIndex = 1;
+            this.label49.Text = "-";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label50.Location = new System.Drawing.Point(737, 445);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(81, 16);
+            this.label50.TabIndex = 1;
+            this.label50.Text = "รวมเงินทั้งสิ้น";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(856, 449);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(10, 13);
+            this.label51.TabIndex = 1;
+            this.label51.Text = "-";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.textBox24);
+            this.groupBox13.Location = new System.Drawing.Point(17, 354);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(428, 115);
+            this.groupBox13.TabIndex = 2;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "หมายเหตุ";
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(7, 19);
+            this.textBox24.Multiline = true;
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(415, 90);
+            this.textBox24.TabIndex = 0;
+            // 
             // clinic_medicine_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1048,9 +1844,18 @@
             this.Load += new System.EventHandler(this.clinic_medicine_main_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.p11.ResumeLayout(false);
+            this.p55.ResumeLayout(false);
+            this.p55.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
             this.p44.ResumeLayout(false);
             this.p44.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -1068,8 +1873,16 @@
             this.p22.ResumeLayout(false);
             this.p22.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.p55.ResumeLayout(false);
-            this.p55.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.p66.ResumeLayout(false);
+            this.p66.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1167,5 +1980,77 @@
         private System.Windows.Forms.RadioButton radioButton10;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton15;
+        private System.Windows.Forms.RadioButton radioButton16;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.RadioButton radioButton17;
+        private System.Windows.Forms.RadioButton radioButton18;
+        private System.Windows.Forms.RadioButton radioButton19;
+        private System.Windows.Forms.RadioButton radioButton20;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.RadioButton radioButton21;
+        private System.Windows.Forms.RadioButton radioButton22;
+        private System.Windows.Forms.RadioButton radioButton23;
+        private System.Windows.Forms.RadioButton radioButton24;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Panel p66;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column18;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label44;
     }
 }

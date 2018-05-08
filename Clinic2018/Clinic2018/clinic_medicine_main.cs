@@ -24,6 +24,7 @@ namespace Clinic2018
             p33.Visible = false;
             p44.Visible = false;
             p55.Visible = false;
+            p66.Visible = false;
         }
 
         private void p2_Click(object sender, EventArgs e)
@@ -32,6 +33,7 @@ namespace Clinic2018
             p33.Visible = false;
             p44.Visible = false;
             p55.Visible = false;
+            p66.Visible = false;
         }
 
         private void p3_Click(object sender, EventArgs e)
@@ -40,6 +42,7 @@ namespace Clinic2018
             p22.Visible = false;
             p44.Visible = false;
             p55.Visible = false;
+            p66.Visible = false;
         }
 
         private void p5_Click(object sender, EventArgs e)
@@ -48,6 +51,7 @@ namespace Clinic2018
             p22.Visible = false;
             p33.Visible = false;
             p55.Visible = false;
+            p66.Visible = false;
         }
 
         private void p6_Click(object sender, EventArgs e)
@@ -56,6 +60,7 @@ namespace Clinic2018
             p22.Visible = false;
             p33.Visible = false;
             p44.Visible = false;
+            p66.Visible = false;
 
         }
 
@@ -118,6 +123,15 @@ namespace Clinic2018
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            p66.Visible = true;
+            p22.Visible = false;
+            p33.Visible = false;
+            p44.Visible = false;
+            p55.Visible = false;
         }
     }
 }
